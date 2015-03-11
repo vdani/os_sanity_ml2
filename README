@@ -1,0 +1,6 @@
+#README FOR OS-SANITY SCRIPTS (ML2-N1KV-PLUGIN)
+
+EXECUTE THE SCRIPTS IN FOLLOWING ORDER:
+1. ./config_params.sh -> This will generate a script_input file
+2. ./cloud_admin.sh -> This will create Tenants and External networks
+3. ./tenant_admin.sh -> This will do all network, subnet, port, instacne and router related operations

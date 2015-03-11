@@ -1,0 +1,130 @@
+ show run network segment manager switch | no-more
+
+!Command: show running-config network segment manager switch
+!Time: Mon Feb  2 04:15:48 2015
+
+version 5.2(1)SK3(2.1)
+feature network-segmentation-manager
+
+network segment manager switch
+  dvs name vdani-vsm
+nsm ip pool template 3b170d5f-3a89-4a2b-9ba6-02134eebfe23
+  description sub1
+  ip address 192.168.10.2 192.168.10.254
+  network 192.168.10.0 255.255.255.0
+  default-router 192.168.10.1
+  dhcp
+nsm ip pool template 61e3e3d4-54f4-43a5-8404-0ffe85d04b5a
+  description subnrt-mgmt
+  ip address 172.27.0.2 172.27.0.254
+  network 172.27.0.0 255.255.255.0
+  default-router 172.27.0.1
+  dhcp
+nsm ip pool template 83227114-29f5-44c1-b067-c493d1a2dd47
+  description subnet-5002
+  ip address 6.6.7.2 6.6.7.254
+  network 6.6.7.0 255.255.255.0
+  default-router 6.6.7.1
+nsm ip pool template 86a47f3d-41e2-458f-ab4e-248ea71ad69b
+  description subnet-5004
+  ip address 6.6.7.2 6.6.7.254
+  network 6.6.7.0 255.255.255.0
+  default-router 6.6.7.1
+nsm logical network 07817149-e7d6-47cc-998c-4ca3f33d7816_log_net
+  description NP-VLAN-1
+nsm logical network 288fb215-f9ce-43ed-bc26-e03072d1196e_log_net
+  description np-5004
+nsm logical network 64a9bcad-37d1-4999-9887-1684703d806d_log_net
+  description np-trunk
+nsm logical network 7e0a786d-d1da-418e-ac36-e32a3ba912f1_log_net
+  description np-5002
+nsm logical network 89bba4d5-ce37-443d-ac0b-a499189db87f_log_net
+  description default-vlan-np
+nsm logical network aca4dd90-a73d-42c5-b916-1477ecdd2a45_log_net
+  description NP-VLAN-2
+nsm logical network b80204b4-2d4d-4d26-abd0-ed4b824fd657_log_net
+  description default-vxlan-np
+nsm logical network e8e3a190-781b-4519-b658-089834ffee9a_log_net
+  description np-mgmt
+nsm network segment pool 07817149-e7d6-47cc-998c-4ca3f33d7816
+  description NP-VLAN-1
+  uuid 07817149-e7d6-47cc-998c-4ca3f33d7816
+  member-of logical network 07817149-e7d6-47cc-998c-4ca3f33d7816_log_net
+nsm network segment pool 288fb215-f9ce-43ed-bc26-e03072d1196e
+  description np-5004
+  uuid 288fb215-f9ce-43ed-bc26-e03072d1196e
+  member-of logical network 288fb215-f9ce-43ed-bc26-e03072d1196e_log_net
+nsm network segment pool 64a9bcad-37d1-4999-9887-1684703d806d
+  description np-trunk
+  uuid 64a9bcad-37d1-4999-9887-1684703d806d
+  member-of logical network 64a9bcad-37d1-4999-9887-1684703d806d_log_net
+nsm network segment pool 7e0a786d-d1da-418e-ac36-e32a3ba912f1
+  description np-5002
+  uuid 7e0a786d-d1da-418e-ac36-e32a3ba912f1
+  member-of logical network 7e0a786d-d1da-418e-ac36-e32a3ba912f1_log_net
+nsm network segment pool 89bba4d5-ce37-443d-ac0b-a499189db87f
+  description default-vlan-np
+  uuid 89bba4d5-ce37-443d-ac0b-a499189db87f
+  member-of logical network 89bba4d5-ce37-443d-ac0b-a499189db87f_log_net
+nsm network segment pool aca4dd90-a73d-42c5-b916-1477ecdd2a45
+  description NP-VLAN-2
+  uuid aca4dd90-a73d-42c5-b916-1477ecdd2a45
+  member-of logical network aca4dd90-a73d-42c5-b916-1477ecdd2a45_log_net
+nsm network segment pool b80204b4-2d4d-4d26-abd0-ed4b824fd657
+  description default-vxlan-np
+  uuid b80204b4-2d4d-4d26-abd0-ed4b824fd657
+  member-of logical network b80204b4-2d4d-4d26-abd0-ed4b824fd657_log_net
+nsm network segment pool e8e3a190-781b-4519-b658-089834ffee9a
+  description np-mgmt
+  uuid e8e3a190-781b-4519-b658-089834ffee9a
+  member-of logical network e8e3a190-781b-4519-b658-089834ffee9a_log_net
+nsm network segment 54e40640-c75a-42ce-bb04-31dc66674092
+  description net-mgmt
+  uuid 54e40640-c75a-42ce-bb04-31dc66674092
+  member-of network segment pool e8e3a190-781b-4519-b658-089834ffee9a
+  switchport mode access
+  switchport access vlan 1400
+  publish network segment
+nsm network segment 6c1de2ea-c76b-42df-adeb-8726a38cb621
+  description net-5002
+  uuid 6c1de2ea-c76b-42df-adeb-8726a38cb621
+  member-of network segment pool 7e0a786d-d1da-418e-ac36-e32a3ba912f1
+  switchport access bridge-domain 6c1de2ea-c76b-42df-adeb-8726a38cb621_bd
+  publish network segment
+nsm network segment 75d685c7-f806-4883-89db-a76e5a02c9a7
+  description net-5004
+  uuid 75d685c7-f806-4883-89db-a76e5a02c9a7
+  member-of network segment pool 288fb215-f9ce-43ed-bc26-e03072d1196e
+  switchport access bridge-domain 75d685c7-f806-4883-89db-a76e5a02c9a7_bd
+  publish network segment
+nsm network segment cefbe928-cd5f-4287-bb96-73d03615c7c0
+  description net1
+  uuid cefbe928-cd5f-4287-bb96-73d03615c7c0
+  member-of network segment pool b80204b4-2d4d-4d26-abd0-ed4b824fd657
+  switchport access bridge-domain cefbe928-cd5f-4287-bb96-73d03615c7c0_bd
+  publish network segment
+nsm network segment ee5ca44f-e708-4ff3-835a-fe39b2ba3bca
+  description net-trunk
+  uuid ee5ca44f-e708-4ff3-835a-fe39b2ba3bca
+  member-of network segment pool 64a9bcad-37d1-4999-9887-1684703d806d
+  switchport mode trunk
+  publish network segment
+nsm network vethernet vmn_48ec928b-fe01-4b85-a585-0afb8c9c85bc_6c1de2ea-c76b-42df-adeb-8726a38cb621
+  import port-profile prof_vxlan_5002 uuid 48ec928b-fe01-4b85-a585-0afb8c9c85bc
+  allow network segment 6c1de2ea-c76b-42df-adeb-8726a38cb621 uuid 6c1de2ea-c76b-42df-adeb-8726a38cb621
+  state enabled
+  port uuid 22afe4ff-0df8-454b-894c-688fe4471df6 mac fa:16:3e:26:b3:fd
+nsm network vethernet vmn_88bfb38d-e08f-486c-98bc-c00c1d196ac0_54e40640-c75a-42ce-bb04-31dc66674092
+  import port-profile default-pp uuid 88bfb38d-e08f-486c-98bc-c00c1d196ac0
+  allow network segment 54e40640-c75a-42ce-bb04-31dc66674092 uuid 54e40640-c75a-42ce-bb04-31dc66674092
+  state enabled
+  port uuid 29f28236-cd79-4c1c-9924-d28119f22988 mac fa:16:3e:24:d7:7c
+  port uuid c4fd430d-1283-42fb-b351-8631753f6269 mac fa:16:3e:6b:b2:92
+nsm network vethernet vmn_88bfb38d-e08f-486c-98bc-c00c1d196ac0_cefbe928-cd5f-4287-bb96-73d03615c7c0
+  import port-profile default-pp uuid 88bfb38d-e08f-486c-98bc-c00c1d196ac0
+  allow network segment cefbe928-cd5f-4287-bb96-73d03615c7c0 uuid cefbe928-cd5f-4287-bb96-73d03615c7c0
+  state enabled
+  port uuid 32162e9b-1dfa-4c2c-b675-4604ccf46c29 mac fa:16:3e:af:0a:76
+
+
+vdani-vsm#

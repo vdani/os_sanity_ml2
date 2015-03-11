@@ -1,0 +1,22 @@
+ show nsm network vethernet | no-more
+
+vethernet network: vmn_48ec928b-fe01-4b85-a585-0afb8c9c85bc_6c1de2ea-c76b-42df-adeb-8726a38cb621
+  import port-profile: prof_vxlan_5002
+  network segment: 6c1de2ea-c76b-42df-adeb-8726a38cb621
+  tenant-id: 
+  port-id: 22afe4ff-0df8-454b-894c-688fe4471df6
+
+vethernet network: vmn_88bfb38d-e08f-486c-98bc-c00c1d196ac0_54e40640-c75a-42ce-bb04-31dc66674092
+  import port-profile: default-pp
+  network segment: 54e40640-c75a-42ce-bb04-31dc66674092
+  tenant-id: 
+  port-id: 29f28236-cd79-4c1c-9924-d28119f22988
+  port-id: c4fd430d-1283-42fb-b351-8631753f6269
+
+vethernet network: vmn_88bfb38d-e08f-486c-98bc-c00c1d196ac0_cefbe928-cd5f-4287-bb96-73d03615c7c0
+  import port-profile: default-pp
+  network segment: cefbe928-cd5f-4287-bb96-73d03615c7c0
+  tenant-id: 
+  port-id: 32162e9b-1dfa-4c2c-b675-4604ccf46c29
+
+vdani-vsm#

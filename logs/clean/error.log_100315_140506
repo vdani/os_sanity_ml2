@@ -1,0 +1,426 @@
+2015-03-08 14:05:23.379 15253 INFO urllib3.connectionpool [-] Starting new HTTP connection (1): 13.0.0.250
+2015-03-09 14:05:11.636 26335 INFO neutron.wsgi [-] (26335) accepted ('13.0.0.3', 34132)
+2015-03-09 14:05:11.654 26335 INFO neutron.plugins.ml2.managers [req-48338afb-559d-4f26-856e-eb8f7af233ed None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-09 14:05:11.656 26335 INFO neutron.wsgi [req-48338afb-559d-4f26-856e-eb8f7af233ed None] 13.0.0.3 - - [09/Mar/2015 14:05:11] "GET /v2.0/ports.json?tenant_id=38ca9a3a2b9a429c8d5931e035d0e642&device_id=cdd4d48f-92da-41da-9175-5114a2df0022 HTTP/1.1" 200 996 0.018952
+2015-03-09 14:05:11.659 26293 INFO neutron.wsgi [-] (26293) accepted ('13.0.0.3', 34133)
+2015-03-09 14:05:11.660 26293 INFO urllib3.connectionpool [-] Resetting dropped connection: 13.0.0.25
+2015-03-09 14:05:11.717 26293 INFO neutron.plugins.ml2.managers [req-aa71fe6d-ad43-49ba-b8b1-9dbed51b4350 None] Extended network dict for driver 'cisco_n1kv_ext'
+2015-03-09 14:05:11.720 26293 INFO neutron.wsgi [req-aa71fe6d-ad43-49ba-b8b1-9dbed51b4350 None] 13.0.0.3 - - [09/Mar/2015 14:05:11] "GET /v2.0/networks.json?id=486d922a-ea3c-4924-81d5-7eb5e346c2f2 HTTP/1.1" 200 577 0.061129
+2015-03-09 14:05:11.723 26293 INFO neutron.wsgi [-] (26293) accepted ('13.0.0.3', 34136)
+2015-03-09 14:05:11.728 26293 INFO neutron.wsgi [req-da8809ec-5332-404c-a3f0-1d9f7d5a9a9d None] 13.0.0.3 - - [09/Mar/2015 14:05:11] "GET /v2.0/floatingips.json?fixed_ip_address=14.3.6.2&port_id=cbb2f8fa-548c-4d7a-ab51-1f7de81368cc HTTP/1.1" 200 208 0.004642
+2015-03-09 14:05:11.730 26299 INFO neutron.wsgi [-] (26299) accepted ('13.0.0.3', 34137)
+2015-03-09 14:05:11.732 26299 INFO urllib3.connectionpool [-] Resetting dropped connection: 13.0.0.25
+2015-03-09 14:05:11.791 26299 INFO neutron.plugins.ml2.managers [req-93d8ae76-f18a-4fd3-87d0-d013bd82bf50 None] Extended subnet dict for driver 'cisco_n1kv_ext'
+2015-03-09 14:05:11.791 26299 INFO neutron.wsgi [req-93d8ae76-f18a-4fd3-87d0-d013bd82bf50 None] 13.0.0.3 - - [09/Mar/2015 14:05:11] "GET /v2.0/subnets.json?id=0b183612-3ce3-47b3-974b-57af7f98a477 HTTP/1.1" 200 622 0.060588
+2015-03-09 14:05:11.794 26299 INFO neutron.wsgi [-] (26299) accepted ('13.0.0.3', 34140)
+2015-03-09 14:05:11.816 26299 INFO neutron.plugins.ml2.managers [req-6bf58f35-5027-4fb7-bbb0-ee61ffa611bb None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-09 14:05:11.818 26299 INFO neutron.wsgi [req-6bf58f35-5027-4fb7-bbb0-ee61ffa611bb None] 13.0.0.3 - - [09/Mar/2015 14:05:11] "GET /v2.0/ports.json?network_id=486d922a-ea3c-4924-81d5-7eb5e346c2f2&device_owner=network%3Adhcp HTTP/1.1" 200 983 0.023214
+2015-03-09 14:05:33.482 26211 INFO urllib3.connectionpool [-] Starting new HTTP connection (1): 13.0.0.250
+2015-03-09 14:05:34.884 26293 INFO neutron.wsgi [-] (26293) accepted ('13.0.0.3', 34524)
+2015-03-09 14:05:34.905 26293 INFO neutron.plugins.ml2.managers [req-7f4fcf8a-9d11-4b71-984e-85a6cf7fb1fa None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-09 14:05:34.906 26293 INFO neutron.wsgi [req-7f4fcf8a-9d11-4b71-984e-85a6cf7fb1fa None] 13.0.0.3 - - [09/Mar/2015 14:05:34] "GET /v2.0/ports.json?tenant_id=6edc90f14268442bb98940f1cef1ea39&device_id=d769a72a-d1a3-49fa-8f9e-6bf9cd591de0 HTTP/1.1" 200 996 0.021400
+2015-03-09 14:05:34.910 26291 INFO neutron.wsgi [-] (26291) accepted ('13.0.0.3', 34525)
+2015-03-09 14:05:34.912 26291 INFO urllib3.connectionpool [-] Resetting dropped connection: 13.0.0.25
+2015-03-09 14:05:34.981 26291 INFO neutron.plugins.ml2.managers [req-c7b23dc0-ba3d-4efd-9306-07777e2da322 None] Extended network dict for driver 'cisco_n1kv_ext'
+2015-03-09 14:05:34.984 26291 INFO neutron.wsgi [req-c7b23dc0-ba3d-4efd-9306-07777e2da322 None] 13.0.0.3 - - [09/Mar/2015 14:05:34] "GET /v2.0/networks.json?id=d97521c8-be68-4611-8393-3c717d4041e2 HTTP/1.1" 200 577 0.073240
+2015-03-09 14:05:34.987 26291 INFO neutron.wsgi [-] (26291) accepted ('13.0.0.3', 34532)
+2015-03-09 14:05:34.992 26291 INFO neutron.wsgi [req-9c8324f9-ee11-4946-a14a-b04dee3ef62f None] 13.0.0.3 - - [09/Mar/2015 14:05:34] "GET /v2.0/floatingips.json?fixed_ip_address=14.8.0.2&port_id=ae571de3-ee71-41b9-ac94-16f550661f1c HTTP/1.1" 200 208 0.004408
+2015-03-09 14:05:34.995 26291 INFO neutron.wsgi [-] (26291) accepted ('13.0.0.3', 34533)
+2015-03-09 14:05:35.005 26291 INFO neutron.plugins.ml2.managers [req-a5b3b4fe-673e-4633-aa34-27776efd639b None] Extended subnet dict for driver 'cisco_n1kv_ext'
+2015-03-09 14:05:35.006 26291 INFO neutron.wsgi [req-a5b3b4fe-673e-4633-aa34-27776efd639b None] 13.0.0.3 - - [09/Mar/2015 14:05:35] "GET /v2.0/subnets.json?id=3db49272-504a-49b3-a067-d48b4d8421f7 HTTP/1.1" 200 622 0.010529
+2015-03-09 14:05:35.009 26289 INFO neutron.wsgi [-] (26289) accepted ('13.0.0.3', 34534)
+2015-03-09 14:05:35.025 26289 INFO neutron.plugins.ml2.managers [req-05e4e358-e06f-460f-be5b-b8a4c238ac4d None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-09 14:05:35.026 26289 INFO neutron.wsgi [req-05e4e358-e06f-460f-be5b-b8a4c238ac4d None] 13.0.0.3 - - [09/Mar/2015 14:05:35] "GET /v2.0/ports.json?network_id=d97521c8-be68-4611-8393-3c717d4041e2&device_owner=network%3Adhcp HTTP/1.1" 200 983 0.016470
+2015-03-09 19:14:05.014 9617 INFO neutron.plugins.ml2.managers [req-bf6880dd-7dd6-4c16-a9e8-a1f4fd6967b2 None] Extended subnet dict for driver 'cisco_n1kv_ext'
+2015-03-09 19:14:05.015 9617 INFO neutron.wsgi [req-bf6880dd-7dd6-4c16-a9e8-a1f4fd6967b2 None] 13.0.0.3 - - [09/Mar/2015 19:14:05] "GET /v2.0/subnets.json?id=91f7acff-e961-4fcc-a35a-27baeeba9e0f HTTP/1.1" 200 622 0.061233
+2015-03-09 19:14:05.017 9617 INFO neutron.wsgi [-] (9617) accepted ('13.0.0.3', 42783)
+2015-03-09 19:14:05.034 9617 INFO neutron.plugins.ml2.managers [req-7edd39b4-67d3-4310-bb49-9f89e3bce96c None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-09 19:14:05.035 9617 INFO neutron.wsgi [req-7edd39b4-67d3-4310-bb49-9f89e3bce96c None] 13.0.0.3 - - [09/Mar/2015 19:14:05] "GET /v2.0/ports.json?network_id=22b9c132-3b75-4183-bbf0-6e54848e46a5&device_owner=network%3Adhcp HTTP/1.1" 200 983 0.017219
+2015-03-10 14:05:06.812 27204 INFO neutron.wsgi [-] (27204) accepted ('13.0.0.3', 52580)
+2015-03-10 14:05:06.817 27195 INFO neutron.wsgi [-] (27195) accepted ('13.0.0.3', 52582)
+2015-03-10 14:05:06.819 27204 INFO urllib3.connectionpool [-] Starting new HTTP connection (1): 13.0.0.25
+2015-03-10 14:05:06.822 27203 INFO neutron.wsgi [-] (27203) accepted ('13.0.0.3', 52586)
+2015-03-10 14:05:06.823 27195 INFO urllib3.connectionpool [-] Starting new HTTP connection (1): 13.0.0.25
+2015-03-10 14:05:06.824 27203 INFO urllib3.connectionpool [-] Resetting dropped connection: 13.0.0.25
+2015-03-10 14:05:06.846 27203 INFO neutron.wsgi [-] (27203) accepted ('13.0.0.3', 52594)
+2015-03-10 14:05:06.848 27203 INFO urllib3.connectionpool [-] Starting new HTTP connection (2): 13.0.0.25
+2015-03-10 14:05:06.853 27204 INFO neutron.wsgi [-] (27204) accepted ('13.0.0.3', 52600)
+2015-03-10 14:05:06.855 27204 INFO urllib3.connectionpool [-] Starting new HTTP connection (2): 13.0.0.25
+2015-03-10 14:05:06.872 27204 INFO neutron.wsgi [-] (27204) accepted ('13.0.0.3', 52610)
+2015-03-10 14:05:06.874 27204 INFO urllib3.connectionpool [-] Starting new HTTP connection (3): 13.0.0.25
+2015-03-10 14:05:06.879 27203 INFO oslo.messaging._drivers.impl_rabbit [req-26ba72d5-8ca7-45ea-8f2b-002484126f9d ] Connecting to AMQP server on 13.0.0.3:5672
+2015-03-10 14:05:06.880 27204 INFO neutron.wsgi [-] (27204) accepted ('13.0.0.3', 52614)
+2015-03-10 14:05:06.882 27204 INFO urllib3.connectionpool [-] Starting new HTTP connection (4): 13.0.0.25
+2015-03-10 14:05:06.903 27203 INFO oslo.messaging._drivers.impl_rabbit [req-26ba72d5-8ca7-45ea-8f2b-002484126f9d ] Connected to AMQP server on 13.0.0.3:5672
+2015-03-10 14:05:06.922 27203 INFO neutron.quota [req-26ba72d5-8ca7-45ea-8f2b-002484126f9d None] Loaded quota_driver: <neutron.db.quota_db.DbQuotaDriver object at 0x45b6690>.
+2015-03-10 14:05:06.939 27203 INFO neutron.plugins.ml2.db [req-26ba72d5-8ca7-45ea-8f2b-002484126f9d None] Added segment 66f970d1-8a77-4a4b-80ca-2c868960720f of type vlan for network b2b02bf6-a271-407c-b430-80efe9b1e914
+2015-03-10 14:05:06.950 27203 INFO urllib3.connectionpool [-] Starting new HTTP connection (1): 13.0.0.250
+2015-03-10 14:05:06.979 27198 INFO neutron.wsgi [-] (27198) accepted ('13.0.0.3', 52628)
+2015-03-10 14:05:06.988 27201 INFO neutron.wsgi [-] (27201) accepted ('13.0.0.3', 52630)
+2015-03-10 14:05:06.998 27200 INFO neutron.wsgi [-] (27200) accepted ('13.0.0.3', 52632)
+2015-03-10 14:05:07.044 27203 INFO neutron.plugins.ml2.db [req-2d7e48bd-0c22-4091-bc00-5c83074e2cc6 None] Added segment f62c6893-57ed-4b40-9a3b-63c35e430f35 of type vlan for network f21fca57-7225-4210-b1f7-1bd034ee0e81
+2015-03-10 14:05:07.054 27203 INFO urllib3.connectionpool [-] Starting new HTTP connection (1): 13.0.0.250
+2015-03-10 14:05:07.078 27204 INFO oslo.messaging._drivers.impl_rabbit [req-e3ea6549-0d9a-4109-8a00-e75afbdf6307 ] Connecting to AMQP server on 13.0.0.3:5672
+2015-03-10 14:05:07.084 27198 INFO oslo.messaging._drivers.impl_rabbit [req-18757764-c7fd-478c-a6ad-09dae42e493a ] Connecting to AMQP server on 13.0.0.3:5672
+2015-03-10 14:05:07.087 27201 INFO oslo.messaging._drivers.impl_rabbit [req-0b740b1a-141a-44bc-af1d-2207d99bf821 ] Connecting to AMQP server on 13.0.0.3:5672
+2015-03-10 14:05:07.093 27198 INFO oslo.messaging._drivers.impl_rabbit [req-18757764-c7fd-478c-a6ad-09dae42e493a ] Connected to AMQP server on 13.0.0.3:5672
+2015-03-10 14:05:07.096 27201 INFO oslo.messaging._drivers.impl_rabbit [req-0b740b1a-141a-44bc-af1d-2207d99bf821 ] Connected to AMQP server on 13.0.0.3:5672
+2015-03-10 14:05:07.098 27200 INFO oslo.messaging._drivers.impl_rabbit [req-b5988235-37f5-4425-a748-cab24be5c357 ] Connecting to AMQP server on 13.0.0.3:5672
+2015-03-10 14:05:07.102 27195 INFO oslo.messaging._drivers.impl_rabbit [req-8b5305ce-f30f-45f8-848e-b34005a495fc ] Connecting to AMQP server on 13.0.0.3:5672
+2015-03-10 14:05:07.103 27204 INFO oslo.messaging._drivers.impl_rabbit [req-e3ea6549-0d9a-4109-8a00-e75afbdf6307 ] Connected to AMQP server on 13.0.0.3:5672
+2015-03-10 14:05:07.110 27204 INFO oslo.messaging._drivers.impl_rabbit [req-095c6946-c5be-4eb3-9722-e5b1262b6e9f ] Connecting to AMQP server on 13.0.0.3:5672
+2015-03-10 14:05:07.114 27195 INFO oslo.messaging._drivers.impl_rabbit [req-8b5305ce-f30f-45f8-848e-b34005a495fc ] Connected to AMQP server on 13.0.0.3:5672
+2015-03-10 14:05:07.114 27200 INFO oslo.messaging._drivers.impl_rabbit [req-b5988235-37f5-4425-a748-cab24be5c357 ] Connected to AMQP server on 13.0.0.3:5672
+2015-03-10 14:05:07.138 27198 INFO neutron.quota [req-18757764-c7fd-478c-a6ad-09dae42e493a None] Loaded quota_driver: <neutron.db.quota_db.DbQuotaDriver object at 0x4356f90>.
+2015-03-10 14:05:07.141 27201 INFO neutron.quota [req-0b740b1a-141a-44bc-af1d-2207d99bf821 None] Loaded quota_driver: <neutron.db.quota_db.DbQuotaDriver object at 0x4358f90>.
+2015-03-10 14:05:07.153 27204 INFO neutron.quota [req-e3ea6549-0d9a-4109-8a00-e75afbdf6307 None] Loaded quota_driver: <neutron.db.quota_db.DbQuotaDriver object at 0x46acd50>.
+2015-03-10 14:05:07.154 27195 INFO neutron.quota [req-8b5305ce-f30f-45f8-848e-b34005a495fc None] Loaded quota_driver: <neutron.db.quota_db.DbQuotaDriver object at 0x461ef10>.
+2015-03-10 14:05:07.155 27200 INFO neutron.quota [req-b5988235-37f5-4425-a748-cab24be5c357 None] Loaded quota_driver: <neutron.db.quota_db.DbQuotaDriver object at 0x4356f90>.
+2015-03-10 14:05:07.159 27198 INFO neutron.plugins.ml2.db [req-18757764-c7fd-478c-a6ad-09dae42e493a None] Added segment 66e51752-7ce6-462b-98f3-9d9970d6ad01 of type vlan for network 1f8ebb42-a40a-40e9-971a-af6d446429b2
+2015-03-10 14:05:07.170 27198 INFO urllib3.connectionpool [-] Starting new HTTP connection (1): 13.0.0.250
+2015-03-10 14:05:07.187 27201 ERROR neutron.api.v2.resource [req-0b740b1a-141a-44bc-af1d-2207d99bf821 None] create failed
+2015-03-10 14:05:07.187 27201 TRACE neutron.api.v2.resource Traceback (most recent call last):
+2015-03-10 14:05:07.187 27201 TRACE neutron.api.v2.resource   File "/usr/lib/python2.7/site-packages/neutron/api/v2/resource.py", line 87, in resource
+2015-03-10 14:05:07.187 27201 TRACE neutron.api.v2.resource     result = method(request=request, **args)
+2015-03-10 14:05:07.187 27201 TRACE neutron.api.v2.resource   File "/usr/lib/python2.7/site-packages/neutron/api/v2/base.py", line 448, in create
+2015-03-10 14:05:07.187 27201 TRACE neutron.api.v2.resource     obj = obj_creator(request.context, **kwargs)
+2015-03-10 14:05:07.187 27201 TRACE neutron.api.v2.resource   File "/usr/lib/python2.7/site-packages/neutron/plugins/ml2/plugin.py", line 499, in create_network
+2015-03-10 14:05:07.187 27201 TRACE neutron.api.v2.resource     tenant_id)
+2015-03-10 14:05:07.187 27201 TRACE neutron.api.v2.resource   File "/usr/lib/python2.7/site-packages/neutron/plugins/ml2/managers.py", line 160, in create_network_segments
+2015-03-10 14:05:07.187 27201 TRACE neutron.api.v2.resource     segment = self.allocate_tenant_segment(session)
+2015-03-10 14:05:07.187 27201 TRACE neutron.api.v2.resource   File "/usr/lib/python2.7/site-packages/neutron/plugins/ml2/managers.py", line 189, in allocate_tenant_segment
+2015-03-10 14:05:07.187 27201 TRACE neutron.api.v2.resource     segment = driver.obj.allocate_tenant_segment(session)
+2015-03-10 14:05:07.187 27201 TRACE neutron.api.v2.resource   File "/usr/lib/python2.7/site-packages/neutron/plugins/ml2/drivers/type_vlan.py", line 220, in allocate_tenant_segment
+2015-03-10 14:05:07.187 27201 TRACE neutron.api.v2.resource     alloc = self.allocate_partially_specified_segment(session)
+2015-03-10 14:05:07.187 27201 TRACE neutron.api.v2.resource   File "/usr/lib/python2.7/site-packages/neutron/plugins/ml2/drivers/helpers.py", line 143, in allocate_partially_specified_segment
+2015-03-10 14:05:07.187 27201 TRACE neutron.api.v2.resource     raise exc.NoNetworkFoundInMaximumAllowedAttempts()
+2015-03-10 14:05:07.187 27201 TRACE neutron.api.v2.resource NoNetworkFoundInMaximumAllowedAttempts: Unable to create the network. No available network found in maximum allowed attempts.
+2015-03-10 14:05:07.187 27201 TRACE neutron.api.v2.resource 
+2015-03-10 14:05:07.188 27201 INFO neutron.wsgi [req-0b740b1a-141a-44bc-af1d-2207d99bf821 None] 13.0.0.3 - - [10/Mar/2015 14:05:07] "POST /v2.0/networks.json HTTP/1.1" 503 389 0.198701
+2015-03-10 14:05:07.189 27204 INFO neutron.plugins.ml2.db [req-e3ea6549-0d9a-4109-8a00-e75afbdf6307 None] Added segment 382ebcc8-12ad-4a1b-9963-6393c359784e of type vlan for network ca109244-d112-4060-bbeb-a6fc0175c28c
+2015-03-10 14:05:07.202 27204 INFO oslo.messaging._drivers.impl_rabbit [req-095c6946-c5be-4eb3-9722-e5b1262b6e9f ] Connected to AMQP server on 13.0.0.3:5672
+2015-03-10 14:05:07.204 27204 INFO urllib3.connectionpool [-] Starting new HTTP connection (1): 13.0.0.250
+2015-03-10 14:05:07.213 27195 ERROR neutron.api.v2.resource [req-8b5305ce-f30f-45f8-848e-b34005a495fc None] create failed
+2015-03-10 14:05:07.213 27195 TRACE neutron.api.v2.resource Traceback (most recent call last):
+2015-03-10 14:05:07.213 27195 TRACE neutron.api.v2.resource   File "/usr/lib/python2.7/site-packages/neutron/api/v2/resource.py", line 87, in resource
+2015-03-10 14:05:07.213 27195 TRACE neutron.api.v2.resource     result = method(request=request, **args)
+2015-03-10 14:05:07.213 27195 TRACE neutron.api.v2.resource   File "/usr/lib/python2.7/site-packages/neutron/api/v2/base.py", line 448, in create
+2015-03-10 14:05:07.213 27195 TRACE neutron.api.v2.resource     obj = obj_creator(request.context, **kwargs)
+2015-03-10 14:05:07.213 27195 TRACE neutron.api.v2.resource   File "/usr/lib/python2.7/site-packages/neutron/plugins/ml2/plugin.py", line 499, in create_network
+2015-03-10 14:05:07.213 27195 TRACE neutron.api.v2.resource     tenant_id)
+2015-03-10 14:05:07.213 27195 TRACE neutron.api.v2.resource   File "/usr/lib/python2.7/site-packages/neutron/plugins/ml2/managers.py", line 160, in create_network_segments
+2015-03-10 14:05:07.213 27195 TRACE neutron.api.v2.resource     segment = self.allocate_tenant_segment(session)
+2015-03-10 14:05:07.213 27195 TRACE neutron.api.v2.resource   File "/usr/lib/python2.7/site-packages/neutron/plugins/ml2/managers.py", line 189, in allocate_tenant_segment
+2015-03-10 14:05:07.213 27195 TRACE neutron.api.v2.resource     segment = driver.obj.allocate_tenant_segment(session)
+2015-03-10 14:05:07.213 27195 TRACE neutron.api.v2.resource   File "/usr/lib/python2.7/site-packages/neutron/plugins/ml2/drivers/type_vlan.py", line 220, in allocate_tenant_segment
+2015-03-10 14:05:07.213 27195 TRACE neutron.api.v2.resource     alloc = self.allocate_partially_specified_segment(session)
+2015-03-10 14:05:07.213 27195 TRACE neutron.api.v2.resource   File "/usr/lib/python2.7/site-packages/neutron/plugins/ml2/drivers/helpers.py", line 143, in allocate_partially_specified_segment
+2015-03-10 14:05:07.213 27195 TRACE neutron.api.v2.resource     raise exc.NoNetworkFoundInMaximumAllowedAttempts()
+2015-03-10 14:05:07.213 27195 TRACE neutron.api.v2.resource NoNetworkFoundInMaximumAllowedAttempts: Unable to create the network. No available network found in maximum allowed attempts.
+2015-03-10 14:05:07.213 27195 TRACE neutron.api.v2.resource 
+2015-03-10 14:05:07.216 27195 INFO neutron.wsgi [req-8b5305ce-f30f-45f8-848e-b34005a495fc None] 13.0.0.3 - - [10/Mar/2015 14:05:07] "POST /v2.0/networks.json HTTP/1.1" 503 389 0.397927
+2015-03-10 14:05:07.242 27204 INFO neutron.plugins.ml2.db [req-095c6946-c5be-4eb3-9722-e5b1262b6e9f None] Added segment ebbb8888-11c4-4811-8e5e-8f14ef5d089d of type vlan for network 4497d2c7-b042-4ba8-a4d7-804fdc1e57c2
+2015-03-10 14:05:07.243 27200 ERROR neutron.api.v2.resource [req-b5988235-37f5-4425-a748-cab24be5c357 None] create failed
+2015-03-10 14:05:07.243 27200 TRACE neutron.api.v2.resource Traceback (most recent call last):
+2015-03-10 14:05:07.243 27200 TRACE neutron.api.v2.resource   File "/usr/lib/python2.7/site-packages/neutron/api/v2/resource.py", line 87, in resource
+2015-03-10 14:05:07.243 27200 TRACE neutron.api.v2.resource     result = method(request=request, **args)
+2015-03-10 14:05:07.243 27200 TRACE neutron.api.v2.resource   File "/usr/lib/python2.7/site-packages/neutron/api/v2/base.py", line 448, in create
+2015-03-10 14:05:07.243 27200 TRACE neutron.api.v2.resource     obj = obj_creator(request.context, **kwargs)
+2015-03-10 14:05:07.243 27200 TRACE neutron.api.v2.resource   File "/usr/lib/python2.7/site-packages/neutron/plugins/ml2/plugin.py", line 499, in create_network
+2015-03-10 14:05:07.243 27200 TRACE neutron.api.v2.resource     tenant_id)
+2015-03-10 14:05:07.243 27200 TRACE neutron.api.v2.resource   File "/usr/lib/python2.7/site-packages/neutron/plugins/ml2/managers.py", line 160, in create_network_segments
+2015-03-10 14:05:07.243 27200 TRACE neutron.api.v2.resource     segment = self.allocate_tenant_segment(session)
+2015-03-10 14:05:07.243 27200 TRACE neutron.api.v2.resource   File "/usr/lib/python2.7/site-packages/neutron/plugins/ml2/managers.py", line 189, in allocate_tenant_segment
+2015-03-10 14:05:07.243 27200 TRACE neutron.api.v2.resource     segment = driver.obj.allocate_tenant_segment(session)
+2015-03-10 14:05:07.243 27200 TRACE neutron.api.v2.resource   File "/usr/lib/python2.7/site-packages/neutron/plugins/ml2/drivers/type_vlan.py", line 220, in allocate_tenant_segment
+2015-03-10 14:05:07.243 27200 TRACE neutron.api.v2.resource     alloc = self.allocate_partially_specified_segment(session)
+2015-03-10 14:05:07.243 27200 TRACE neutron.api.v2.resource   File "/usr/lib/python2.7/site-packages/neutron/plugins/ml2/drivers/helpers.py", line 143, in allocate_partially_specified_segment
+2015-03-10 14:05:07.243 27200 TRACE neutron.api.v2.resource     raise exc.NoNetworkFoundInMaximumAllowedAttempts()
+2015-03-10 14:05:07.243 27200 TRACE neutron.api.v2.resource NoNetworkFoundInMaximumAllowedAttempts: Unable to create the network. No available network found in maximum allowed attempts.
+2015-03-10 14:05:07.243 27200 TRACE neutron.api.v2.resource 
+2015-03-10 14:05:07.245 27200 INFO neutron.wsgi [req-b5988235-37f5-4425-a748-cab24be5c357 None] 13.0.0.3 - - [10/Mar/2015 14:05:07] "POST /v2.0/networks.json HTTP/1.1" 503 389 0.245986
+2015-03-10 14:05:07.255 27204 INFO urllib3.connectionpool [-] Starting new HTTP connection (1): 13.0.0.250
+2015-03-08 14:05:23.379 15253 INFO urllib3.connectionpool [-] Starting new HTTP connection (1): 13.0.0.250
+2015-03-09 14:05:11.636 26335 INFO neutron.wsgi [-] (26335) accepted ('13.0.0.3', 34132)
+2015-03-09 14:05:11.654 26335 INFO neutron.plugins.ml2.managers [req-48338afb-559d-4f26-856e-eb8f7af233ed None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-09 14:05:11.656 26335 INFO neutron.wsgi [req-48338afb-559d-4f26-856e-eb8f7af233ed None] 13.0.0.3 - - [09/Mar/2015 14:05:11] "GET /v2.0/ports.json?tenant_id=38ca9a3a2b9a429c8d5931e035d0e642&device_id=cdd4d48f-92da-41da-9175-5114a2df0022 HTTP/1.1" 200 996 0.018952
+2015-03-09 14:05:11.659 26293 INFO neutron.wsgi [-] (26293) accepted ('13.0.0.3', 34133)
+2015-03-09 14:05:11.660 26293 INFO urllib3.connectionpool [-] Resetting dropped connection: 13.0.0.25
+2015-03-09 14:05:11.717 26293 INFO neutron.plugins.ml2.managers [req-aa71fe6d-ad43-49ba-b8b1-9dbed51b4350 None] Extended network dict for driver 'cisco_n1kv_ext'
+2015-03-09 14:05:11.720 26293 INFO neutron.wsgi [req-aa71fe6d-ad43-49ba-b8b1-9dbed51b4350 None] 13.0.0.3 - - [09/Mar/2015 14:05:11] "GET /v2.0/networks.json?id=486d922a-ea3c-4924-81d5-7eb5e346c2f2 HTTP/1.1" 200 577 0.061129
+2015-03-09 14:05:11.723 26293 INFO neutron.wsgi [-] (26293) accepted ('13.0.0.3', 34136)
+2015-03-09 14:05:11.728 26293 INFO neutron.wsgi [req-da8809ec-5332-404c-a3f0-1d9f7d5a9a9d None] 13.0.0.3 - - [09/Mar/2015 14:05:11] "GET /v2.0/floatingips.json?fixed_ip_address=14.3.6.2&port_id=cbb2f8fa-548c-4d7a-ab51-1f7de81368cc HTTP/1.1" 200 208 0.004642
+2015-03-09 14:05:11.730 26299 INFO neutron.wsgi [-] (26299) accepted ('13.0.0.3', 34137)
+2015-03-09 14:05:11.732 26299 INFO urllib3.connectionpool [-] Resetting dropped connection: 13.0.0.25
+2015-03-09 14:05:11.791 26299 INFO neutron.plugins.ml2.managers [req-93d8ae76-f18a-4fd3-87d0-d013bd82bf50 None] Extended subnet dict for driver 'cisco_n1kv_ext'
+2015-03-09 14:05:11.791 26299 INFO neutron.wsgi [req-93d8ae76-f18a-4fd3-87d0-d013bd82bf50 None] 13.0.0.3 - - [09/Mar/2015 14:05:11] "GET /v2.0/subnets.json?id=0b183612-3ce3-47b3-974b-57af7f98a477 HTTP/1.1" 200 622 0.060588
+2015-03-09 14:05:11.794 26299 INFO neutron.wsgi [-] (26299) accepted ('13.0.0.3', 34140)
+2015-03-09 14:05:11.816 26299 INFO neutron.plugins.ml2.managers [req-6bf58f35-5027-4fb7-bbb0-ee61ffa611bb None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-09 14:05:11.818 26299 INFO neutron.wsgi [req-6bf58f35-5027-4fb7-bbb0-ee61ffa611bb None] 13.0.0.3 - - [09/Mar/2015 14:05:11] "GET /v2.0/ports.json?network_id=486d922a-ea3c-4924-81d5-7eb5e346c2f2&device_owner=network%3Adhcp HTTP/1.1" 200 983 0.023214
+2015-03-09 14:05:33.482 26211 INFO urllib3.connectionpool [-] Starting new HTTP connection (1): 13.0.0.250
+2015-03-09 14:05:34.884 26293 INFO neutron.wsgi [-] (26293) accepted ('13.0.0.3', 34524)
+2015-03-09 14:05:34.905 26293 INFO neutron.plugins.ml2.managers [req-7f4fcf8a-9d11-4b71-984e-85a6cf7fb1fa None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-09 14:05:34.906 26293 INFO neutron.wsgi [req-7f4fcf8a-9d11-4b71-984e-85a6cf7fb1fa None] 13.0.0.3 - - [09/Mar/2015 14:05:34] "GET /v2.0/ports.json?tenant_id=6edc90f14268442bb98940f1cef1ea39&device_id=d769a72a-d1a3-49fa-8f9e-6bf9cd591de0 HTTP/1.1" 200 996 0.021400
+2015-03-09 14:05:34.910 26291 INFO neutron.wsgi [-] (26291) accepted ('13.0.0.3', 34525)
+2015-03-09 14:05:34.912 26291 INFO urllib3.connectionpool [-] Resetting dropped connection: 13.0.0.25
+2015-03-09 14:05:34.981 26291 INFO neutron.plugins.ml2.managers [req-c7b23dc0-ba3d-4efd-9306-07777e2da322 None] Extended network dict for driver 'cisco_n1kv_ext'
+2015-03-09 14:05:34.984 26291 INFO neutron.wsgi [req-c7b23dc0-ba3d-4efd-9306-07777e2da322 None] 13.0.0.3 - - [09/Mar/2015 14:05:34] "GET /v2.0/networks.json?id=d97521c8-be68-4611-8393-3c717d4041e2 HTTP/1.1" 200 577 0.073240
+2015-03-09 14:05:34.987 26291 INFO neutron.wsgi [-] (26291) accepted ('13.0.0.3', 34532)
+2015-03-09 14:05:34.992 26291 INFO neutron.wsgi [req-9c8324f9-ee11-4946-a14a-b04dee3ef62f None] 13.0.0.3 - - [09/Mar/2015 14:05:34] "GET /v2.0/floatingips.json?fixed_ip_address=14.8.0.2&port_id=ae571de3-ee71-41b9-ac94-16f550661f1c HTTP/1.1" 200 208 0.004408
+2015-03-09 14:05:34.995 26291 INFO neutron.wsgi [-] (26291) accepted ('13.0.0.3', 34533)
+2015-03-09 14:05:35.005 26291 INFO neutron.plugins.ml2.managers [req-a5b3b4fe-673e-4633-aa34-27776efd639b None] Extended subnet dict for driver 'cisco_n1kv_ext'
+2015-03-09 14:05:35.006 26291 INFO neutron.wsgi [req-a5b3b4fe-673e-4633-aa34-27776efd639b None] 13.0.0.3 - - [09/Mar/2015 14:05:35] "GET /v2.0/subnets.json?id=3db49272-504a-49b3-a067-d48b4d8421f7 HTTP/1.1" 200 622 0.010529
+2015-03-09 14:05:35.009 26289 INFO neutron.wsgi [-] (26289) accepted ('13.0.0.3', 34534)
+2015-03-09 14:05:35.025 26289 INFO neutron.plugins.ml2.managers [req-05e4e358-e06f-460f-be5b-b8a4c238ac4d None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-09 14:05:35.026 26289 INFO neutron.wsgi [req-05e4e358-e06f-460f-be5b-b8a4c238ac4d None] 13.0.0.3 - - [09/Mar/2015 14:05:35] "GET /v2.0/ports.json?network_id=d97521c8-be68-4611-8393-3c717d4041e2&device_owner=network%3Adhcp HTTP/1.1" 200 983 0.016470
+2015-03-09 19:14:05.014 9617 INFO neutron.plugins.ml2.managers [req-bf6880dd-7dd6-4c16-a9e8-a1f4fd6967b2 None] Extended subnet dict for driver 'cisco_n1kv_ext'
+2015-03-09 19:14:05.015 9617 INFO neutron.wsgi [req-bf6880dd-7dd6-4c16-a9e8-a1f4fd6967b2 None] 13.0.0.3 - - [09/Mar/2015 19:14:05] "GET /v2.0/subnets.json?id=91f7acff-e961-4fcc-a35a-27baeeba9e0f HTTP/1.1" 200 622 0.061233
+2015-03-09 19:14:05.017 9617 INFO neutron.wsgi [-] (9617) accepted ('13.0.0.3', 42783)
+2015-03-09 19:14:05.034 9617 INFO neutron.plugins.ml2.managers [req-7edd39b4-67d3-4310-bb49-9f89e3bce96c None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-09 19:14:05.035 9617 INFO neutron.wsgi [req-7edd39b4-67d3-4310-bb49-9f89e3bce96c None] 13.0.0.3 - - [09/Mar/2015 19:14:05] "GET /v2.0/ports.json?network_id=22b9c132-3b75-4183-bbf0-6e54848e46a5&device_owner=network%3Adhcp HTTP/1.1" 200 983 0.017219
+2015-03-10 14:05:06.812 27204 INFO neutron.wsgi [-] (27204) accepted ('13.0.0.3', 52580)
+2015-03-10 14:05:06.817 27195 INFO neutron.wsgi [-] (27195) accepted ('13.0.0.3', 52582)
+2015-03-10 14:05:06.819 27204 INFO urllib3.connectionpool [-] Starting new HTTP connection (1): 13.0.0.25
+2015-03-10 14:05:06.822 27203 INFO neutron.wsgi [-] (27203) accepted ('13.0.0.3', 52586)
+2015-03-10 14:05:06.823 27195 INFO urllib3.connectionpool [-] Starting new HTTP connection (1): 13.0.0.25
+2015-03-10 14:05:06.824 27203 INFO urllib3.connectionpool [-] Resetting dropped connection: 13.0.0.25
+2015-03-10 14:05:06.846 27203 INFO neutron.wsgi [-] (27203) accepted ('13.0.0.3', 52594)
+2015-03-10 14:05:06.848 27203 INFO urllib3.connectionpool [-] Starting new HTTP connection (2): 13.0.0.25
+2015-03-10 14:05:06.853 27204 INFO neutron.wsgi [-] (27204) accepted ('13.0.0.3', 52600)
+2015-03-10 14:05:06.855 27204 INFO urllib3.connectionpool [-] Starting new HTTP connection (2): 13.0.0.25
+2015-03-10 14:05:06.872 27204 INFO neutron.wsgi [-] (27204) accepted ('13.0.0.3', 52610)
+2015-03-10 14:05:06.874 27204 INFO urllib3.connectionpool [-] Starting new HTTP connection (3): 13.0.0.25
+2015-03-10 14:05:06.879 27203 INFO oslo.messaging._drivers.impl_rabbit [req-26ba72d5-8ca7-45ea-8f2b-002484126f9d ] Connecting to AMQP server on 13.0.0.3:5672
+2015-03-10 14:05:06.880 27204 INFO neutron.wsgi [-] (27204) accepted ('13.0.0.3', 52614)
+2015-03-10 14:05:06.882 27204 INFO urllib3.connectionpool [-] Starting new HTTP connection (4): 13.0.0.25
+2015-03-10 14:05:06.903 27203 INFO oslo.messaging._drivers.impl_rabbit [req-26ba72d5-8ca7-45ea-8f2b-002484126f9d ] Connected to AMQP server on 13.0.0.3:5672
+2015-03-10 14:05:06.922 27203 INFO neutron.quota [req-26ba72d5-8ca7-45ea-8f2b-002484126f9d None] Loaded quota_driver: <neutron.db.quota_db.DbQuotaDriver object at 0x45b6690>.
+2015-03-10 14:05:06.939 27203 INFO neutron.plugins.ml2.db [req-26ba72d5-8ca7-45ea-8f2b-002484126f9d None] Added segment 66f970d1-8a77-4a4b-80ca-2c868960720f of type vlan for network b2b02bf6-a271-407c-b430-80efe9b1e914
+2015-03-10 14:05:06.950 27203 INFO urllib3.connectionpool [-] Starting new HTTP connection (1): 13.0.0.250
+2015-03-10 14:05:06.979 27198 INFO neutron.wsgi [-] (27198) accepted ('13.0.0.3', 52628)
+2015-03-10 14:05:06.988 27201 INFO neutron.wsgi [-] (27201) accepted ('13.0.0.3', 52630)
+2015-03-10 14:05:06.998 27200 INFO neutron.wsgi [-] (27200) accepted ('13.0.0.3', 52632)
+2015-03-10 14:05:07.044 27203 INFO neutron.plugins.ml2.db [req-2d7e48bd-0c22-4091-bc00-5c83074e2cc6 None] Added segment f62c6893-57ed-4b40-9a3b-63c35e430f35 of type vlan for network f21fca57-7225-4210-b1f7-1bd034ee0e81
+2015-03-10 14:05:07.054 27203 INFO urllib3.connectionpool [-] Starting new HTTP connection (1): 13.0.0.250
+2015-03-10 14:05:07.078 27204 INFO oslo.messaging._drivers.impl_rabbit [req-e3ea6549-0d9a-4109-8a00-e75afbdf6307 ] Connecting to AMQP server on 13.0.0.3:5672
+2015-03-10 14:05:07.084 27198 INFO oslo.messaging._drivers.impl_rabbit [req-18757764-c7fd-478c-a6ad-09dae42e493a ] Connecting to AMQP server on 13.0.0.3:5672
+2015-03-10 14:05:07.087 27201 INFO oslo.messaging._drivers.impl_rabbit [req-0b740b1a-141a-44bc-af1d-2207d99bf821 ] Connecting to AMQP server on 13.0.0.3:5672
+2015-03-10 14:05:07.093 27198 INFO oslo.messaging._drivers.impl_rabbit [req-18757764-c7fd-478c-a6ad-09dae42e493a ] Connected to AMQP server on 13.0.0.3:5672
+2015-03-10 14:05:07.096 27201 INFO oslo.messaging._drivers.impl_rabbit [req-0b740b1a-141a-44bc-af1d-2207d99bf821 ] Connected to AMQP server on 13.0.0.3:5672
+2015-03-10 14:05:07.098 27200 INFO oslo.messaging._drivers.impl_rabbit [req-b5988235-37f5-4425-a748-cab24be5c357 ] Connecting to AMQP server on 13.0.0.3:5672
+2015-03-10 14:05:07.102 27195 INFO oslo.messaging._drivers.impl_rabbit [req-8b5305ce-f30f-45f8-848e-b34005a495fc ] Connecting to AMQP server on 13.0.0.3:5672
+2015-03-10 14:05:07.103 27204 INFO oslo.messaging._drivers.impl_rabbit [req-e3ea6549-0d9a-4109-8a00-e75afbdf6307 ] Connected to AMQP server on 13.0.0.3:5672
+2015-03-10 14:05:07.110 27204 INFO oslo.messaging._drivers.impl_rabbit [req-095c6946-c5be-4eb3-9722-e5b1262b6e9f ] Connecting to AMQP server on 13.0.0.3:5672
+2015-03-10 14:05:07.114 27195 INFO oslo.messaging._drivers.impl_rabbit [req-8b5305ce-f30f-45f8-848e-b34005a495fc ] Connected to AMQP server on 13.0.0.3:5672
+2015-03-10 14:05:07.114 27200 INFO oslo.messaging._drivers.impl_rabbit [req-b5988235-37f5-4425-a748-cab24be5c357 ] Connected to AMQP server on 13.0.0.3:5672
+2015-03-10 14:05:07.138 27198 INFO neutron.quota [req-18757764-c7fd-478c-a6ad-09dae42e493a None] Loaded quota_driver: <neutron.db.quota_db.DbQuotaDriver object at 0x4356f90>.
+2015-03-10 14:05:07.141 27201 INFO neutron.quota [req-0b740b1a-141a-44bc-af1d-2207d99bf821 None] Loaded quota_driver: <neutron.db.quota_db.DbQuotaDriver object at 0x4358f90>.
+2015-03-10 14:05:07.153 27204 INFO neutron.quota [req-e3ea6549-0d9a-4109-8a00-e75afbdf6307 None] Loaded quota_driver: <neutron.db.quota_db.DbQuotaDriver object at 0x46acd50>.
+2015-03-10 14:05:07.154 27195 INFO neutron.quota [req-8b5305ce-f30f-45f8-848e-b34005a495fc None] Loaded quota_driver: <neutron.db.quota_db.DbQuotaDriver object at 0x461ef10>.
+2015-03-10 14:05:07.155 27200 INFO neutron.quota [req-b5988235-37f5-4425-a748-cab24be5c357 None] Loaded quota_driver: <neutron.db.quota_db.DbQuotaDriver object at 0x4356f90>.
+2015-03-10 14:05:07.159 27198 INFO neutron.plugins.ml2.db [req-18757764-c7fd-478c-a6ad-09dae42e493a None] Added segment 66e51752-7ce6-462b-98f3-9d9970d6ad01 of type vlan for network 1f8ebb42-a40a-40e9-971a-af6d446429b2
+2015-03-10 14:05:07.170 27198 INFO urllib3.connectionpool [-] Starting new HTTP connection (1): 13.0.0.250
+2015-03-10 14:05:07.187 27201 ERROR neutron.api.v2.resource [req-0b740b1a-141a-44bc-af1d-2207d99bf821 None] create failed
+2015-03-10 14:05:07.187 27201 TRACE neutron.api.v2.resource Traceback (most recent call last):
+2015-03-10 14:05:07.187 27201 TRACE neutron.api.v2.resource   File "/usr/lib/python2.7/site-packages/neutron/api/v2/resource.py", line 87, in resource
+2015-03-10 14:05:07.187 27201 TRACE neutron.api.v2.resource     result = method(request=request, **args)
+2015-03-10 14:05:07.187 27201 TRACE neutron.api.v2.resource   File "/usr/lib/python2.7/site-packages/neutron/api/v2/base.py", line 448, in create
+2015-03-10 14:05:07.187 27201 TRACE neutron.api.v2.resource     obj = obj_creator(request.context, **kwargs)
+2015-03-10 14:05:07.187 27201 TRACE neutron.api.v2.resource   File "/usr/lib/python2.7/site-packages/neutron/plugins/ml2/plugin.py", line 499, in create_network
+2015-03-10 14:05:07.187 27201 TRACE neutron.api.v2.resource     tenant_id)
+2015-03-10 14:05:07.187 27201 TRACE neutron.api.v2.resource   File "/usr/lib/python2.7/site-packages/neutron/plugins/ml2/managers.py", line 160, in create_network_segments
+2015-03-10 14:05:07.187 27201 TRACE neutron.api.v2.resource     segment = self.allocate_tenant_segment(session)
+2015-03-10 14:05:07.187 27201 TRACE neutron.api.v2.resource   File "/usr/lib/python2.7/site-packages/neutron/plugins/ml2/managers.py", line 189, in allocate_tenant_segment
+2015-03-10 14:05:07.187 27201 TRACE neutron.api.v2.resource     segment = driver.obj.allocate_tenant_segment(session)
+2015-03-10 14:05:07.187 27201 TRACE neutron.api.v2.resource   File "/usr/lib/python2.7/site-packages/neutron/plugins/ml2/drivers/type_vlan.py", line 220, in allocate_tenant_segment
+2015-03-10 14:05:07.187 27201 TRACE neutron.api.v2.resource     alloc = self.allocate_partially_specified_segment(session)
+2015-03-10 14:05:07.187 27201 TRACE neutron.api.v2.resource   File "/usr/lib/python2.7/site-packages/neutron/plugins/ml2/drivers/helpers.py", line 143, in allocate_partially_specified_segment
+2015-03-10 14:05:07.187 27201 TRACE neutron.api.v2.resource     raise exc.NoNetworkFoundInMaximumAllowedAttempts()
+2015-03-10 14:05:07.187 27201 TRACE neutron.api.v2.resource NoNetworkFoundInMaximumAllowedAttempts: Unable to create the network. No available network found in maximum allowed attempts.
+2015-03-10 14:05:07.187 27201 TRACE neutron.api.v2.resource 
+2015-03-10 14:05:07.188 27201 INFO neutron.wsgi [req-0b740b1a-141a-44bc-af1d-2207d99bf821 None] 13.0.0.3 - - [10/Mar/2015 14:05:07] "POST /v2.0/networks.json HTTP/1.1" 503 389 0.198701
+2015-03-10 14:05:07.189 27204 INFO neutron.plugins.ml2.db [req-e3ea6549-0d9a-4109-8a00-e75afbdf6307 None] Added segment 382ebcc8-12ad-4a1b-9963-6393c359784e of type vlan for network ca109244-d112-4060-bbeb-a6fc0175c28c
+2015-03-10 14:05:07.202 27204 INFO oslo.messaging._drivers.impl_rabbit [req-095c6946-c5be-4eb3-9722-e5b1262b6e9f ] Connected to AMQP server on 13.0.0.3:5672
+2015-03-10 14:05:07.204 27204 INFO urllib3.connectionpool [-] Starting new HTTP connection (1): 13.0.0.250
+2015-03-10 14:05:07.213 27195 ERROR neutron.api.v2.resource [req-8b5305ce-f30f-45f8-848e-b34005a495fc None] create failed
+2015-03-10 14:05:07.213 27195 TRACE neutron.api.v2.resource Traceback (most recent call last):
+2015-03-10 14:05:07.213 27195 TRACE neutron.api.v2.resource   File "/usr/lib/python2.7/site-packages/neutron/api/v2/resource.py", line 87, in resource
+2015-03-10 14:05:07.213 27195 TRACE neutron.api.v2.resource     result = method(request=request, **args)
+2015-03-10 14:05:07.213 27195 TRACE neutron.api.v2.resource   File "/usr/lib/python2.7/site-packages/neutron/api/v2/base.py", line 448, in create
+2015-03-10 14:05:07.213 27195 TRACE neutron.api.v2.resource     obj = obj_creator(request.context, **kwargs)
+2015-03-10 14:05:07.213 27195 TRACE neutron.api.v2.resource   File "/usr/lib/python2.7/site-packages/neutron/plugins/ml2/plugin.py", line 499, in create_network
+2015-03-10 14:05:07.213 27195 TRACE neutron.api.v2.resource     tenant_id)
+2015-03-10 14:05:07.213 27195 TRACE neutron.api.v2.resource   File "/usr/lib/python2.7/site-packages/neutron/plugins/ml2/managers.py", line 160, in create_network_segments
+2015-03-10 14:05:07.213 27195 TRACE neutron.api.v2.resource     segment = self.allocate_tenant_segment(session)
+2015-03-10 14:05:07.213 27195 TRACE neutron.api.v2.resource   File "/usr/lib/python2.7/site-packages/neutron/plugins/ml2/managers.py", line 189, in allocate_tenant_segment
+2015-03-10 14:05:07.213 27195 TRACE neutron.api.v2.resource     segment = driver.obj.allocate_tenant_segment(session)
+2015-03-10 14:05:07.213 27195 TRACE neutron.api.v2.resource   File "/usr/lib/python2.7/site-packages/neutron/plugins/ml2/drivers/type_vlan.py", line 220, in allocate_tenant_segment
+2015-03-10 14:05:07.213 27195 TRACE neutron.api.v2.resource     alloc = self.allocate_partially_specified_segment(session)
+2015-03-10 14:05:07.213 27195 TRACE neutron.api.v2.resource   File "/usr/lib/python2.7/site-packages/neutron/plugins/ml2/drivers/helpers.py", line 143, in allocate_partially_specified_segment
+2015-03-10 14:05:07.213 27195 TRACE neutron.api.v2.resource     raise exc.NoNetworkFoundInMaximumAllowedAttempts()
+2015-03-10 14:05:07.213 27195 TRACE neutron.api.v2.resource NoNetworkFoundInMaximumAllowedAttempts: Unable to create the network. No available network found in maximum allowed attempts.
+2015-03-10 14:05:07.213 27195 TRACE neutron.api.v2.resource 
+2015-03-10 14:05:07.216 27195 INFO neutron.wsgi [req-8b5305ce-f30f-45f8-848e-b34005a495fc None] 13.0.0.3 - - [10/Mar/2015 14:05:07] "POST /v2.0/networks.json HTTP/1.1" 503 389 0.397927
+2015-03-10 14:05:07.242 27204 INFO neutron.plugins.ml2.db [req-095c6946-c5be-4eb3-9722-e5b1262b6e9f None] Added segment ebbb8888-11c4-4811-8e5e-8f14ef5d089d of type vlan for network 4497d2c7-b042-4ba8-a4d7-804fdc1e57c2
+2015-03-10 14:05:07.243 27200 ERROR neutron.api.v2.resource [req-b5988235-37f5-4425-a748-cab24be5c357 None] create failed
+2015-03-10 14:05:07.243 27200 TRACE neutron.api.v2.resource Traceback (most recent call last):
+2015-03-10 14:05:07.243 27200 TRACE neutron.api.v2.resource   File "/usr/lib/python2.7/site-packages/neutron/api/v2/resource.py", line 87, in resource
+2015-03-10 14:05:07.243 27200 TRACE neutron.api.v2.resource     result = method(request=request, **args)
+2015-03-10 14:05:07.243 27200 TRACE neutron.api.v2.resource   File "/usr/lib/python2.7/site-packages/neutron/api/v2/base.py", line 448, in create
+2015-03-10 14:05:07.243 27200 TRACE neutron.api.v2.resource     obj = obj_creator(request.context, **kwargs)
+2015-03-10 14:05:07.243 27200 TRACE neutron.api.v2.resource   File "/usr/lib/python2.7/site-packages/neutron/plugins/ml2/plugin.py", line 499, in create_network
+2015-03-10 14:05:07.243 27200 TRACE neutron.api.v2.resource     tenant_id)
+2015-03-10 14:05:07.243 27200 TRACE neutron.api.v2.resource   File "/usr/lib/python2.7/site-packages/neutron/plugins/ml2/managers.py", line 160, in create_network_segments
+2015-03-10 14:05:07.243 27200 TRACE neutron.api.v2.resource     segment = self.allocate_tenant_segment(session)
+2015-03-10 14:05:07.243 27200 TRACE neutron.api.v2.resource   File "/usr/lib/python2.7/site-packages/neutron/plugins/ml2/managers.py", line 189, in allocate_tenant_segment
+2015-03-10 14:05:07.243 27200 TRACE neutron.api.v2.resource     segment = driver.obj.allocate_tenant_segment(session)
+2015-03-10 14:05:07.243 27200 TRACE neutron.api.v2.resource   File "/usr/lib/python2.7/site-packages/neutron/plugins/ml2/drivers/type_vlan.py", line 220, in allocate_tenant_segment
+2015-03-10 14:05:07.243 27200 TRACE neutron.api.v2.resource     alloc = self.allocate_partially_specified_segment(session)
+2015-03-10 14:05:07.243 27200 TRACE neutron.api.v2.resource   File "/usr/lib/python2.7/site-packages/neutron/plugins/ml2/drivers/helpers.py", line 143, in allocate_partially_specified_segment
+2015-03-10 14:05:07.243 27200 TRACE neutron.api.v2.resource     raise exc.NoNetworkFoundInMaximumAllowedAttempts()
+2015-03-10 14:05:07.243 27200 TRACE neutron.api.v2.resource NoNetworkFoundInMaximumAllowedAttempts: Unable to create the network. No available network found in maximum allowed attempts.
+2015-03-10 14:05:07.243 27200 TRACE neutron.api.v2.resource 
+2015-03-10 14:05:07.245 27200 INFO neutron.wsgi [req-b5988235-37f5-4425-a748-cab24be5c357 None] 13.0.0.3 - - [10/Mar/2015 14:05:07] "POST /v2.0/networks.json HTTP/1.1" 503 389 0.245986
+2015-03-10 14:05:07.255 27204 INFO urllib3.connectionpool [-] Starting new HTTP connection (1): 13.0.0.250
+2015-03-08 14:05:23.379 15253 INFO urllib3.connectionpool [-] Starting new HTTP connection (1): 13.0.0.250
+2015-03-09 14:05:11.636 26335 INFO neutron.wsgi [-] (26335) accepted ('13.0.0.3', 34132)
+2015-03-09 14:05:11.654 26335 INFO neutron.plugins.ml2.managers [req-48338afb-559d-4f26-856e-eb8f7af233ed None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-09 14:05:11.656 26335 INFO neutron.wsgi [req-48338afb-559d-4f26-856e-eb8f7af233ed None] 13.0.0.3 - - [09/Mar/2015 14:05:11] "GET /v2.0/ports.json?tenant_id=38ca9a3a2b9a429c8d5931e035d0e642&device_id=cdd4d48f-92da-41da-9175-5114a2df0022 HTTP/1.1" 200 996 0.018952
+2015-03-09 14:05:11.659 26293 INFO neutron.wsgi [-] (26293) accepted ('13.0.0.3', 34133)
+2015-03-09 14:05:11.660 26293 INFO urllib3.connectionpool [-] Resetting dropped connection: 13.0.0.25
+2015-03-09 14:05:11.717 26293 INFO neutron.plugins.ml2.managers [req-aa71fe6d-ad43-49ba-b8b1-9dbed51b4350 None] Extended network dict for driver 'cisco_n1kv_ext'
+2015-03-09 14:05:11.720 26293 INFO neutron.wsgi [req-aa71fe6d-ad43-49ba-b8b1-9dbed51b4350 None] 13.0.0.3 - - [09/Mar/2015 14:05:11] "GET /v2.0/networks.json?id=486d922a-ea3c-4924-81d5-7eb5e346c2f2 HTTP/1.1" 200 577 0.061129
+2015-03-09 14:05:11.723 26293 INFO neutron.wsgi [-] (26293) accepted ('13.0.0.3', 34136)
+2015-03-09 14:05:11.728 26293 INFO neutron.wsgi [req-da8809ec-5332-404c-a3f0-1d9f7d5a9a9d None] 13.0.0.3 - - [09/Mar/2015 14:05:11] "GET /v2.0/floatingips.json?fixed_ip_address=14.3.6.2&port_id=cbb2f8fa-548c-4d7a-ab51-1f7de81368cc HTTP/1.1" 200 208 0.004642
+2015-03-09 14:05:11.730 26299 INFO neutron.wsgi [-] (26299) accepted ('13.0.0.3', 34137)
+2015-03-09 14:05:11.732 26299 INFO urllib3.connectionpool [-] Resetting dropped connection: 13.0.0.25
+2015-03-09 14:05:11.791 26299 INFO neutron.plugins.ml2.managers [req-93d8ae76-f18a-4fd3-87d0-d013bd82bf50 None] Extended subnet dict for driver 'cisco_n1kv_ext'
+2015-03-09 14:05:11.791 26299 INFO neutron.wsgi [req-93d8ae76-f18a-4fd3-87d0-d013bd82bf50 None] 13.0.0.3 - - [09/Mar/2015 14:05:11] "GET /v2.0/subnets.json?id=0b183612-3ce3-47b3-974b-57af7f98a477 HTTP/1.1" 200 622 0.060588
+2015-03-09 14:05:11.794 26299 INFO neutron.wsgi [-] (26299) accepted ('13.0.0.3', 34140)
+2015-03-09 14:05:11.816 26299 INFO neutron.plugins.ml2.managers [req-6bf58f35-5027-4fb7-bbb0-ee61ffa611bb None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-09 14:05:11.818 26299 INFO neutron.wsgi [req-6bf58f35-5027-4fb7-bbb0-ee61ffa611bb None] 13.0.0.3 - - [09/Mar/2015 14:05:11] "GET /v2.0/ports.json?network_id=486d922a-ea3c-4924-81d5-7eb5e346c2f2&device_owner=network%3Adhcp HTTP/1.1" 200 983 0.023214
+2015-03-09 14:05:33.482 26211 INFO urllib3.connectionpool [-] Starting new HTTP connection (1): 13.0.0.250
+2015-03-09 14:05:34.884 26293 INFO neutron.wsgi [-] (26293) accepted ('13.0.0.3', 34524)
+2015-03-09 14:05:34.905 26293 INFO neutron.plugins.ml2.managers [req-7f4fcf8a-9d11-4b71-984e-85a6cf7fb1fa None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-09 14:05:34.906 26293 INFO neutron.wsgi [req-7f4fcf8a-9d11-4b71-984e-85a6cf7fb1fa None] 13.0.0.3 - - [09/Mar/2015 14:05:34] "GET /v2.0/ports.json?tenant_id=6edc90f14268442bb98940f1cef1ea39&device_id=d769a72a-d1a3-49fa-8f9e-6bf9cd591de0 HTTP/1.1" 200 996 0.021400
+2015-03-09 14:05:34.910 26291 INFO neutron.wsgi [-] (26291) accepted ('13.0.0.3', 34525)
+2015-03-09 14:05:34.912 26291 INFO urllib3.connectionpool [-] Resetting dropped connection: 13.0.0.25
+2015-03-09 14:05:34.981 26291 INFO neutron.plugins.ml2.managers [req-c7b23dc0-ba3d-4efd-9306-07777e2da322 None] Extended network dict for driver 'cisco_n1kv_ext'
+2015-03-09 14:05:34.984 26291 INFO neutron.wsgi [req-c7b23dc0-ba3d-4efd-9306-07777e2da322 None] 13.0.0.3 - - [09/Mar/2015 14:05:34] "GET /v2.0/networks.json?id=d97521c8-be68-4611-8393-3c717d4041e2 HTTP/1.1" 200 577 0.073240
+2015-03-09 14:05:34.987 26291 INFO neutron.wsgi [-] (26291) accepted ('13.0.0.3', 34532)
+2015-03-09 14:05:34.992 26291 INFO neutron.wsgi [req-9c8324f9-ee11-4946-a14a-b04dee3ef62f None] 13.0.0.3 - - [09/Mar/2015 14:05:34] "GET /v2.0/floatingips.json?fixed_ip_address=14.8.0.2&port_id=ae571de3-ee71-41b9-ac94-16f550661f1c HTTP/1.1" 200 208 0.004408
+2015-03-09 14:05:34.995 26291 INFO neutron.wsgi [-] (26291) accepted ('13.0.0.3', 34533)
+2015-03-09 14:05:35.005 26291 INFO neutron.plugins.ml2.managers [req-a5b3b4fe-673e-4633-aa34-27776efd639b None] Extended subnet dict for driver 'cisco_n1kv_ext'
+2015-03-09 14:05:35.006 26291 INFO neutron.wsgi [req-a5b3b4fe-673e-4633-aa34-27776efd639b None] 13.0.0.3 - - [09/Mar/2015 14:05:35] "GET /v2.0/subnets.json?id=3db49272-504a-49b3-a067-d48b4d8421f7 HTTP/1.1" 200 622 0.010529
+2015-03-09 14:05:35.009 26289 INFO neutron.wsgi [-] (26289) accepted ('13.0.0.3', 34534)
+2015-03-09 14:05:35.025 26289 INFO neutron.plugins.ml2.managers [req-05e4e358-e06f-460f-be5b-b8a4c238ac4d None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-09 14:05:35.026 26289 INFO neutron.wsgi [req-05e4e358-e06f-460f-be5b-b8a4c238ac4d None] 13.0.0.3 - - [09/Mar/2015 14:05:35] "GET /v2.0/ports.json?network_id=d97521c8-be68-4611-8393-3c717d4041e2&device_owner=network%3Adhcp HTTP/1.1" 200 983 0.016470
+2015-03-09 19:14:05.014 9617 INFO neutron.plugins.ml2.managers [req-bf6880dd-7dd6-4c16-a9e8-a1f4fd6967b2 None] Extended subnet dict for driver 'cisco_n1kv_ext'
+2015-03-09 19:14:05.015 9617 INFO neutron.wsgi [req-bf6880dd-7dd6-4c16-a9e8-a1f4fd6967b2 None] 13.0.0.3 - - [09/Mar/2015 19:14:05] "GET /v2.0/subnets.json?id=91f7acff-e961-4fcc-a35a-27baeeba9e0f HTTP/1.1" 200 622 0.061233
+2015-03-09 19:14:05.017 9617 INFO neutron.wsgi [-] (9617) accepted ('13.0.0.3', 42783)
+2015-03-09 19:14:05.034 9617 INFO neutron.plugins.ml2.managers [req-7edd39b4-67d3-4310-bb49-9f89e3bce96c None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-09 19:14:05.035 9617 INFO neutron.wsgi [req-7edd39b4-67d3-4310-bb49-9f89e3bce96c None] 13.0.0.3 - - [09/Mar/2015 19:14:05] "GET /v2.0/ports.json?network_id=22b9c132-3b75-4183-bbf0-6e54848e46a5&device_owner=network%3Adhcp HTTP/1.1" 200 983 0.017219
+2015-03-10 14:05:06.812 27204 INFO neutron.wsgi [-] (27204) accepted ('13.0.0.3', 52580)
+2015-03-10 14:05:06.817 27195 INFO neutron.wsgi [-] (27195) accepted ('13.0.0.3', 52582)
+2015-03-10 14:05:06.819 27204 INFO urllib3.connectionpool [-] Starting new HTTP connection (1): 13.0.0.25
+2015-03-10 14:05:06.822 27203 INFO neutron.wsgi [-] (27203) accepted ('13.0.0.3', 52586)
+2015-03-10 14:05:06.823 27195 INFO urllib3.connectionpool [-] Starting new HTTP connection (1): 13.0.0.25
+2015-03-10 14:05:06.824 27203 INFO urllib3.connectionpool [-] Resetting dropped connection: 13.0.0.25
+2015-03-10 14:05:06.846 27203 INFO neutron.wsgi [-] (27203) accepted ('13.0.0.3', 52594)
+2015-03-10 14:05:06.848 27203 INFO urllib3.connectionpool [-] Starting new HTTP connection (2): 13.0.0.25
+2015-03-10 14:05:06.853 27204 INFO neutron.wsgi [-] (27204) accepted ('13.0.0.3', 52600)
+2015-03-10 14:05:06.855 27204 INFO urllib3.connectionpool [-] Starting new HTTP connection (2): 13.0.0.25
+2015-03-10 14:05:06.872 27204 INFO neutron.wsgi [-] (27204) accepted ('13.0.0.3', 52610)
+2015-03-10 14:05:06.874 27204 INFO urllib3.connectionpool [-] Starting new HTTP connection (3): 13.0.0.25
+2015-03-10 14:05:06.879 27203 INFO oslo.messaging._drivers.impl_rabbit [req-26ba72d5-8ca7-45ea-8f2b-002484126f9d ] Connecting to AMQP server on 13.0.0.3:5672
+2015-03-10 14:05:06.880 27204 INFO neutron.wsgi [-] (27204) accepted ('13.0.0.3', 52614)
+2015-03-10 14:05:06.882 27204 INFO urllib3.connectionpool [-] Starting new HTTP connection (4): 13.0.0.25
+2015-03-10 14:05:06.903 27203 INFO oslo.messaging._drivers.impl_rabbit [req-26ba72d5-8ca7-45ea-8f2b-002484126f9d ] Connected to AMQP server on 13.0.0.3:5672
+2015-03-10 14:05:06.922 27203 INFO neutron.quota [req-26ba72d5-8ca7-45ea-8f2b-002484126f9d None] Loaded quota_driver: <neutron.db.quota_db.DbQuotaDriver object at 0x45b6690>.
+2015-03-10 14:05:06.939 27203 INFO neutron.plugins.ml2.db [req-26ba72d5-8ca7-45ea-8f2b-002484126f9d None] Added segment 66f970d1-8a77-4a4b-80ca-2c868960720f of type vlan for network b2b02bf6-a271-407c-b430-80efe9b1e914
+2015-03-10 14:05:06.950 27203 INFO urllib3.connectionpool [-] Starting new HTTP connection (1): 13.0.0.250
+2015-03-10 14:05:06.979 27198 INFO neutron.wsgi [-] (27198) accepted ('13.0.0.3', 52628)
+2015-03-10 14:05:06.988 27201 INFO neutron.wsgi [-] (27201) accepted ('13.0.0.3', 52630)
+2015-03-10 14:05:06.998 27200 INFO neutron.wsgi [-] (27200) accepted ('13.0.0.3', 52632)
+2015-03-10 14:05:07.044 27203 INFO neutron.plugins.ml2.db [req-2d7e48bd-0c22-4091-bc00-5c83074e2cc6 None] Added segment f62c6893-57ed-4b40-9a3b-63c35e430f35 of type vlan for network f21fca57-7225-4210-b1f7-1bd034ee0e81
+2015-03-10 14:05:07.054 27203 INFO urllib3.connectionpool [-] Starting new HTTP connection (1): 13.0.0.250
+2015-03-10 14:05:07.078 27204 INFO oslo.messaging._drivers.impl_rabbit [req-e3ea6549-0d9a-4109-8a00-e75afbdf6307 ] Connecting to AMQP server on 13.0.0.3:5672
+2015-03-10 14:05:07.084 27198 INFO oslo.messaging._drivers.impl_rabbit [req-18757764-c7fd-478c-a6ad-09dae42e493a ] Connecting to AMQP server on 13.0.0.3:5672
+2015-03-10 14:05:07.087 27201 INFO oslo.messaging._drivers.impl_rabbit [req-0b740b1a-141a-44bc-af1d-2207d99bf821 ] Connecting to AMQP server on 13.0.0.3:5672
+2015-03-10 14:05:07.093 27198 INFO oslo.messaging._drivers.impl_rabbit [req-18757764-c7fd-478c-a6ad-09dae42e493a ] Connected to AMQP server on 13.0.0.3:5672
+2015-03-10 14:05:07.096 27201 INFO oslo.messaging._drivers.impl_rabbit [req-0b740b1a-141a-44bc-af1d-2207d99bf821 ] Connected to AMQP server on 13.0.0.3:5672
+2015-03-10 14:05:07.098 27200 INFO oslo.messaging._drivers.impl_rabbit [req-b5988235-37f5-4425-a748-cab24be5c357 ] Connecting to AMQP server on 13.0.0.3:5672
+2015-03-10 14:05:07.102 27195 INFO oslo.messaging._drivers.impl_rabbit [req-8b5305ce-f30f-45f8-848e-b34005a495fc ] Connecting to AMQP server on 13.0.0.3:5672
+2015-03-10 14:05:07.103 27204 INFO oslo.messaging._drivers.impl_rabbit [req-e3ea6549-0d9a-4109-8a00-e75afbdf6307 ] Connected to AMQP server on 13.0.0.3:5672
+2015-03-10 14:05:07.110 27204 INFO oslo.messaging._drivers.impl_rabbit [req-095c6946-c5be-4eb3-9722-e5b1262b6e9f ] Connecting to AMQP server on 13.0.0.3:5672
+2015-03-10 14:05:07.114 27195 INFO oslo.messaging._drivers.impl_rabbit [req-8b5305ce-f30f-45f8-848e-b34005a495fc ] Connected to AMQP server on 13.0.0.3:5672
+2015-03-10 14:05:07.114 27200 INFO oslo.messaging._drivers.impl_rabbit [req-b5988235-37f5-4425-a748-cab24be5c357 ] Connected to AMQP server on 13.0.0.3:5672
+2015-03-10 14:05:07.138 27198 INFO neutron.quota [req-18757764-c7fd-478c-a6ad-09dae42e493a None] Loaded quota_driver: <neutron.db.quota_db.DbQuotaDriver object at 0x4356f90>.
+2015-03-10 14:05:07.141 27201 INFO neutron.quota [req-0b740b1a-141a-44bc-af1d-2207d99bf821 None] Loaded quota_driver: <neutron.db.quota_db.DbQuotaDriver object at 0x4358f90>.
+2015-03-10 14:05:07.153 27204 INFO neutron.quota [req-e3ea6549-0d9a-4109-8a00-e75afbdf6307 None] Loaded quota_driver: <neutron.db.quota_db.DbQuotaDriver object at 0x46acd50>.
+2015-03-10 14:05:07.154 27195 INFO neutron.quota [req-8b5305ce-f30f-45f8-848e-b34005a495fc None] Loaded quota_driver: <neutron.db.quota_db.DbQuotaDriver object at 0x461ef10>.
+2015-03-10 14:05:07.155 27200 INFO neutron.quota [req-b5988235-37f5-4425-a748-cab24be5c357 None] Loaded quota_driver: <neutron.db.quota_db.DbQuotaDriver object at 0x4356f90>.
+2015-03-10 14:05:07.159 27198 INFO neutron.plugins.ml2.db [req-18757764-c7fd-478c-a6ad-09dae42e493a None] Added segment 66e51752-7ce6-462b-98f3-9d9970d6ad01 of type vlan for network 1f8ebb42-a40a-40e9-971a-af6d446429b2
+2015-03-10 14:05:07.170 27198 INFO urllib3.connectionpool [-] Starting new HTTP connection (1): 13.0.0.250
+2015-03-10 14:05:07.187 27201 ERROR neutron.api.v2.resource [req-0b740b1a-141a-44bc-af1d-2207d99bf821 None] create failed
+2015-03-10 14:05:07.187 27201 TRACE neutron.api.v2.resource Traceback (most recent call last):
+2015-03-10 14:05:07.187 27201 TRACE neutron.api.v2.resource   File "/usr/lib/python2.7/site-packages/neutron/api/v2/resource.py", line 87, in resource
+2015-03-10 14:05:07.187 27201 TRACE neutron.api.v2.resource     result = method(request=request, **args)
+2015-03-10 14:05:07.187 27201 TRACE neutron.api.v2.resource   File "/usr/lib/python2.7/site-packages/neutron/api/v2/base.py", line 448, in create
+2015-03-10 14:05:07.187 27201 TRACE neutron.api.v2.resource     obj = obj_creator(request.context, **kwargs)
+2015-03-10 14:05:07.187 27201 TRACE neutron.api.v2.resource   File "/usr/lib/python2.7/site-packages/neutron/plugins/ml2/plugin.py", line 499, in create_network
+2015-03-10 14:05:07.187 27201 TRACE neutron.api.v2.resource     tenant_id)
+2015-03-10 14:05:07.187 27201 TRACE neutron.api.v2.resource   File "/usr/lib/python2.7/site-packages/neutron/plugins/ml2/managers.py", line 160, in create_network_segments
+2015-03-10 14:05:07.187 27201 TRACE neutron.api.v2.resource     segment = self.allocate_tenant_segment(session)
+2015-03-10 14:05:07.187 27201 TRACE neutron.api.v2.resource   File "/usr/lib/python2.7/site-packages/neutron/plugins/ml2/managers.py", line 189, in allocate_tenant_segment
+2015-03-10 14:05:07.187 27201 TRACE neutron.api.v2.resource     segment = driver.obj.allocate_tenant_segment(session)
+2015-03-10 14:05:07.187 27201 TRACE neutron.api.v2.resource   File "/usr/lib/python2.7/site-packages/neutron/plugins/ml2/drivers/type_vlan.py", line 220, in allocate_tenant_segment
+2015-03-10 14:05:07.187 27201 TRACE neutron.api.v2.resource     alloc = self.allocate_partially_specified_segment(session)
+2015-03-10 14:05:07.187 27201 TRACE neutron.api.v2.resource   File "/usr/lib/python2.7/site-packages/neutron/plugins/ml2/drivers/helpers.py", line 143, in allocate_partially_specified_segment
+2015-03-10 14:05:07.187 27201 TRACE neutron.api.v2.resource     raise exc.NoNetworkFoundInMaximumAllowedAttempts()
+2015-03-10 14:05:07.187 27201 TRACE neutron.api.v2.resource NoNetworkFoundInMaximumAllowedAttempts: Unable to create the network. No available network found in maximum allowed attempts.
+2015-03-10 14:05:07.187 27201 TRACE neutron.api.v2.resource 
+2015-03-10 14:05:07.188 27201 INFO neutron.wsgi [req-0b740b1a-141a-44bc-af1d-2207d99bf821 None] 13.0.0.3 - - [10/Mar/2015 14:05:07] "POST /v2.0/networks.json HTTP/1.1" 503 389 0.198701
+2015-03-10 14:05:07.189 27204 INFO neutron.plugins.ml2.db [req-e3ea6549-0d9a-4109-8a00-e75afbdf6307 None] Added segment 382ebcc8-12ad-4a1b-9963-6393c359784e of type vlan for network ca109244-d112-4060-bbeb-a6fc0175c28c
+2015-03-10 14:05:07.202 27204 INFO oslo.messaging._drivers.impl_rabbit [req-095c6946-c5be-4eb3-9722-e5b1262b6e9f ] Connected to AMQP server on 13.0.0.3:5672
+2015-03-10 14:05:07.204 27204 INFO urllib3.connectionpool [-] Starting new HTTP connection (1): 13.0.0.250
+2015-03-10 14:05:07.213 27195 ERROR neutron.api.v2.resource [req-8b5305ce-f30f-45f8-848e-b34005a495fc None] create failed
+2015-03-10 14:05:07.213 27195 TRACE neutron.api.v2.resource Traceback (most recent call last):
+2015-03-10 14:05:07.213 27195 TRACE neutron.api.v2.resource   File "/usr/lib/python2.7/site-packages/neutron/api/v2/resource.py", line 87, in resource
+2015-03-10 14:05:07.213 27195 TRACE neutron.api.v2.resource     result = method(request=request, **args)
+2015-03-10 14:05:07.213 27195 TRACE neutron.api.v2.resource   File "/usr/lib/python2.7/site-packages/neutron/api/v2/base.py", line 448, in create
+2015-03-10 14:05:07.213 27195 TRACE neutron.api.v2.resource     obj = obj_creator(request.context, **kwargs)
+2015-03-10 14:05:07.213 27195 TRACE neutron.api.v2.resource   File "/usr/lib/python2.7/site-packages/neutron/plugins/ml2/plugin.py", line 499, in create_network
+2015-03-10 14:05:07.213 27195 TRACE neutron.api.v2.resource     tenant_id)
+2015-03-10 14:05:07.213 27195 TRACE neutron.api.v2.resource   File "/usr/lib/python2.7/site-packages/neutron/plugins/ml2/managers.py", line 160, in create_network_segments
+2015-03-10 14:05:07.213 27195 TRACE neutron.api.v2.resource     segment = self.allocate_tenant_segment(session)
+2015-03-10 14:05:07.213 27195 TRACE neutron.api.v2.resource   File "/usr/lib/python2.7/site-packages/neutron/plugins/ml2/managers.py", line 189, in allocate_tenant_segment
+2015-03-10 14:05:07.213 27195 TRACE neutron.api.v2.resource     segment = driver.obj.allocate_tenant_segment(session)
+2015-03-10 14:05:07.213 27195 TRACE neutron.api.v2.resource   File "/usr/lib/python2.7/site-packages/neutron/plugins/ml2/drivers/type_vlan.py", line 220, in allocate_tenant_segment
+2015-03-10 14:05:07.213 27195 TRACE neutron.api.v2.resource     alloc = self.allocate_partially_specified_segment(session)
+2015-03-10 14:05:07.213 27195 TRACE neutron.api.v2.resource   File "/usr/lib/python2.7/site-packages/neutron/plugins/ml2/drivers/helpers.py", line 143, in allocate_partially_specified_segment
+2015-03-10 14:05:07.213 27195 TRACE neutron.api.v2.resource     raise exc.NoNetworkFoundInMaximumAllowedAttempts()
+2015-03-10 14:05:07.213 27195 TRACE neutron.api.v2.resource NoNetworkFoundInMaximumAllowedAttempts: Unable to create the network. No available network found in maximum allowed attempts.
+2015-03-10 14:05:07.213 27195 TRACE neutron.api.v2.resource 
+2015-03-10 14:05:07.216 27195 INFO neutron.wsgi [req-8b5305ce-f30f-45f8-848e-b34005a495fc None] 13.0.0.3 - - [10/Mar/2015 14:05:07] "POST /v2.0/networks.json HTTP/1.1" 503 389 0.397927
+2015-03-10 14:05:07.242 27204 INFO neutron.plugins.ml2.db [req-095c6946-c5be-4eb3-9722-e5b1262b6e9f None] Added segment ebbb8888-11c4-4811-8e5e-8f14ef5d089d of type vlan for network 4497d2c7-b042-4ba8-a4d7-804fdc1e57c2
+2015-03-10 14:05:07.243 27200 ERROR neutron.api.v2.resource [req-b5988235-37f5-4425-a748-cab24be5c357 None] create failed
+2015-03-10 14:05:07.243 27200 TRACE neutron.api.v2.resource Traceback (most recent call last):
+2015-03-10 14:05:07.243 27200 TRACE neutron.api.v2.resource   File "/usr/lib/python2.7/site-packages/neutron/api/v2/resource.py", line 87, in resource
+2015-03-10 14:05:07.243 27200 TRACE neutron.api.v2.resource     result = method(request=request, **args)
+2015-03-10 14:05:07.243 27200 TRACE neutron.api.v2.resource   File "/usr/lib/python2.7/site-packages/neutron/api/v2/base.py", line 448, in create
+2015-03-10 14:05:07.243 27200 TRACE neutron.api.v2.resource     obj = obj_creator(request.context, **kwargs)
+2015-03-10 14:05:07.243 27200 TRACE neutron.api.v2.resource   File "/usr/lib/python2.7/site-packages/neutron/plugins/ml2/plugin.py", line 499, in create_network
+2015-03-10 14:05:07.243 27200 TRACE neutron.api.v2.resource     tenant_id)
+2015-03-10 14:05:07.243 27200 TRACE neutron.api.v2.resource   File "/usr/lib/python2.7/site-packages/neutron/plugins/ml2/managers.py", line 160, in create_network_segments
+2015-03-10 14:05:07.243 27200 TRACE neutron.api.v2.resource     segment = self.allocate_tenant_segment(session)
+2015-03-10 14:05:07.243 27200 TRACE neutron.api.v2.resource   File "/usr/lib/python2.7/site-packages/neutron/plugins/ml2/managers.py", line 189, in allocate_tenant_segment
+2015-03-10 14:05:07.243 27200 TRACE neutron.api.v2.resource     segment = driver.obj.allocate_tenant_segment(session)
+2015-03-10 14:05:07.243 27200 TRACE neutron.api.v2.resource   File "/usr/lib/python2.7/site-packages/neutron/plugins/ml2/drivers/type_vlan.py", line 220, in allocate_tenant_segment
+2015-03-10 14:05:07.243 27200 TRACE neutron.api.v2.resource     alloc = self.allocate_partially_specified_segment(session)
+2015-03-10 14:05:07.243 27200 TRACE neutron.api.v2.resource   File "/usr/lib/python2.7/site-packages/neutron/plugins/ml2/drivers/helpers.py", line 143, in allocate_partially_specified_segment
+2015-03-10 14:05:07.243 27200 TRACE neutron.api.v2.resource     raise exc.NoNetworkFoundInMaximumAllowedAttempts()
+2015-03-10 14:05:07.243 27200 TRACE neutron.api.v2.resource NoNetworkFoundInMaximumAllowedAttempts: Unable to create the network. No available network found in maximum allowed attempts.
+2015-03-10 14:05:07.243 27200 TRACE neutron.api.v2.resource 
+2015-03-10 14:05:07.245 27200 INFO neutron.wsgi [req-b5988235-37f5-4425-a748-cab24be5c357 None] 13.0.0.3 - - [10/Mar/2015 14:05:07] "POST /v2.0/networks.json HTTP/1.1" 503 389 0.245986
+2015-03-10 14:05:07.255 27204 INFO urllib3.connectionpool [-] Starting new HTTP connection (1): 13.0.0.250

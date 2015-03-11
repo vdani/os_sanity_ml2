@@ -1,0 +1,108 @@
+2015-03-08 16:56:20.301 27745 INFO urllib3.connectionpool [-] Starting new HTTP connection (1): 13.0.0.250
+2015-03-08 16:56:21.863 27745 INFO urllib3.connectionpool [-] Starting new HTTP connection (1): 13.0.0.250
+2015-03-09 16:56:05.808 10529 INFO neutron.wsgi [-] (10529) accepted ('13.0.0.3', 41247)
+2015-03-09 16:56:05.811 10529 INFO urllib3.connectionpool [-] Resetting dropped connection: 13.0.0.25
+2015-03-09 16:56:05.878 10529 INFO neutron.plugins.ml2.managers [req-ed92e0ec-060a-42f1-89ee-c279a553add1 None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-09 16:56:05.879 10529 INFO neutron.wsgi [req-ed92e0ec-060a-42f1-89ee-c279a553add1 None] 13.0.0.3 - - [09/Mar/2015 16:56:05] "GET /v2.0/ports.json?tenant_id=6edc90f14268442bb98940f1cef1ea39&device_id=fb8b23be-9b08-4d55-ba01-14298fe8b272 HTTP/1.1" 200 996 0.069826
+2015-03-09 16:56:05.882 10529 INFO neutron.wsgi [-] (10529) accepted ('13.0.0.3', 41251)
+2015-03-09 16:56:05.893 10529 INFO neutron.plugins.ml2.managers [req-144c8038-2f1f-4a9b-9dac-3156b3b505e5 None] Extended network dict for driver 'cisco_n1kv_ext'
+2015-03-09 16:56:05.895 10529 INFO neutron.wsgi [req-144c8038-2f1f-4a9b-9dac-3156b3b505e5 None] 13.0.0.3 - - [09/Mar/2015 16:56:05] "GET /v2.0/networks.json?id=21f4a6d1-fff4-4403-8bc8-00a4429a9e0c HTTP/1.1" 200 577 0.012539
+2015-03-09 16:56:05.898 10529 INFO neutron.wsgi [-] (10529) accepted ('13.0.0.3', 41252)
+2015-03-09 16:56:05.902 10529 INFO neutron.wsgi [req-61fcaf1e-31b9-4bee-a6c1-efa72aa3411d None] 13.0.0.3 - - [09/Mar/2015 16:56:05] "GET /v2.0/floatingips.json?fixed_ip_address=14.8.2.2&port_id=e54ef322-076e-4ca9-82cc-9d447ca4f2f8 HTTP/1.1" 200 208 0.004038
+2015-03-09 16:56:05.905 10529 INFO neutron.wsgi [-] (10529) accepted ('13.0.0.3', 41253)
+2015-03-09 16:56:05.914 10529 INFO neutron.plugins.ml2.managers [req-063adfed-df20-4935-a65d-805528f23265 None] Extended subnet dict for driver 'cisco_n1kv_ext'
+2015-03-09 16:56:05.914 10529 INFO neutron.wsgi [req-063adfed-df20-4935-a65d-805528f23265 None] 13.0.0.3 - - [09/Mar/2015 16:56:05] "GET /v2.0/subnets.json?id=b3eb77af-0496-48de-9b4c-804f3975d61f HTTP/1.1" 200 622 0.009118
+2015-03-09 16:56:05.917 10529 INFO neutron.wsgi [-] (10529) accepted ('13.0.0.3', 41254)
+2015-03-09 16:56:05.932 10529 INFO neutron.plugins.ml2.managers [req-0e1d0185-b8e5-4145-ae3e-63f37b2231b4 None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-09 16:56:05.933 10529 INFO neutron.wsgi [req-0e1d0185-b8e5-4145-ae3e-63f37b2231b4 None] 13.0.0.3 - - [09/Mar/2015 16:56:05] "GET /v2.0/ports.json?network_id=21f4a6d1-fff4-4403-8bc8-00a4429a9e0c&device_owner=network%3Adhcp HTTP/1.1" 200 983 0.016229
+2015-03-09 16:56:32.726 10507 INFO urllib3.connectionpool [-] Starting new HTTP connection (1): 13.0.0.250
+2015-03-09 16:56:33.523 10507 INFO urllib3.connectionpool [-] Starting new HTTP connection (1): 13.0.0.250
+2015-03-09 16:56:52.557 10529 INFO neutron.wsgi [-] (10529) accepted ('13.0.0.3', 42035)
+2015-03-09 16:56:52.578 10529 INFO neutron.plugins.ml2.managers [req-7e61f446-7d20-498f-929b-3b13de441dd9 None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-09 16:56:52.579 10529 INFO neutron.wsgi [req-7e61f446-7d20-498f-929b-3b13de441dd9 None] 13.0.0.3 - - [09/Mar/2015 16:56:52] "GET /v2.0/ports.json?tenant_id=cd8e05c53c6f4db79368f04564dcb4d3&device_id=ca15c5fd-f235-46ef-9420-2194c40098fc HTTP/1.1" 200 996 0.021011
+2015-03-09 16:56:52.582 10527 INFO neutron.wsgi [-] (10527) accepted ('13.0.0.3', 42036)
+2015-03-09 16:56:52.584 10527 INFO urllib3.connectionpool [-] Resetting dropped connection: 13.0.0.25
+2015-03-09 16:56:52.647 10527 INFO neutron.plugins.ml2.managers [req-645b9715-7e4b-4205-a6ef-0cac89751036 None] Extended network dict for driver 'cisco_n1kv_ext'
+2015-03-09 16:56:52.650 10527 INFO neutron.wsgi [req-645b9715-7e4b-4205-a6ef-0cac89751036 None] 13.0.0.3 - - [09/Mar/2015 16:56:52] "GET /v2.0/networks.json?id=f4d6cb80-5983-4fea-a349-1dbc69760ac6 HTTP/1.1" 200 577 0.067607
+2015-03-09 16:56:52.653 10527 INFO neutron.wsgi [-] (10527) accepted ('13.0.0.3', 42043)
+2015-03-09 16:56:52.658 10527 INFO neutron.wsgi [req-cc8bfdae-bc34-4b16-9af6-d73c501e62bd None] 13.0.0.3 - - [09/Mar/2015 16:56:52] "GET /v2.0/floatingips.json?fixed_ip_address=14.6.8.2&port_id=8f5a5f12-26b8-4302-b66f-d5ca99a84738 HTTP/1.1" 200 208 0.004532
+2015-03-09 16:56:52.661 10527 INFO neutron.wsgi [-] (10527) accepted ('13.0.0.3', 42044)
+2015-03-09 16:56:52.671 10527 INFO neutron.plugins.ml2.managers [req-38a9cf33-1b8b-4bf1-8b25-4ff1b0cd2f53 None] Extended subnet dict for driver 'cisco_n1kv_ext'
+2015-03-09 16:56:52.672 10527 INFO neutron.wsgi [req-38a9cf33-1b8b-4bf1-8b25-4ff1b0cd2f53 None] 13.0.0.3 - - [09/Mar/2015 16:56:52] "GET /v2.0/subnets.json?id=30db6366-4e46-4c5f-9f58-da84ec031304 HTTP/1.1" 200 622 0.011024
+2015-03-09 16:56:52.675 10534 INFO neutron.wsgi [-] (10534) accepted ('13.0.0.3', 42045)
+2015-03-09 16:56:52.677 10534 INFO urllib3.connectionpool [-] Resetting dropped connection: 13.0.0.25
+2015-03-09 16:56:52.736 10534 INFO neutron.plugins.ml2.managers [req-14cff363-81f4-43ab-90ee-a2d9f7bfb1ed None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-09 16:56:52.737 10534 INFO neutron.wsgi [req-14cff363-81f4-43ab-90ee-a2d9f7bfb1ed None] 13.0.0.3 - - [09/Mar/2015 16:56:52] "GET /v2.0/ports.json?network_id=f4d6cb80-5983-4fea-a349-1dbc69760ac6&device_owner=network%3Adhcp HTTP/1.1" 200 983 0.061951
+2015-03-10 03:16:56.235 27056 INFO neutron.plugins.ml2.drivers.cisco.n1kv.n1kv_client [req-7857e298-aa30-4198-bca2-68dc8b4ac37e None] VSM: Successfully deleted "ports c8d6ab8d-5d4a-4493-907b-56394176bf07"
+2015-03-10 03:16:56.235 27056 INFO neutron.plugins.ml2.drivers.cisco.n1kv.mech_cisco_n1kv [req-7857e298-aa30-4198-bca2-68dc8b4ac37e None] Delete port(postcommit) succeeded for port: c8d6ab8d-5d4a-4493-907b-56394176bf07 on network: 98a5f0a4-21aa-40e5-ad20-0cd922919e8e with policy profile ID: 1b71fdbe-e571-4cf8-98ff-19a9b1bf5009
+2015-03-10 03:16:56.238 27056 ERROR neutron.api.v2.resource [req-7857e298-aa30-4198-bca2-68dc8b4ac37e None] create failed
+2015-03-10 03:16:56.238 27056 TRACE neutron.api.v2.resource Traceback (most recent call last):
+2015-03-10 03:16:56.238 27056 TRACE neutron.api.v2.resource   File "/usr/lib/python2.7/site-packages/neutron/api/v2/resource.py", line 87, in resource
+2015-03-10 03:16:56.238 27056 TRACE neutron.api.v2.resource     result = method(request=request, **args)
+2015-03-10 03:16:56.238 27056 TRACE neutron.api.v2.resource   File "/usr/lib/python2.7/site-packages/neutron/api/v2/base.py", line 448, in create
+2015-03-10 03:16:56.238 27056 TRACE neutron.api.v2.resource     obj = obj_creator(request.context, **kwargs)
+2015-03-10 03:16:56.238 27056 TRACE neutron.api.v2.resource   File "/usr/lib/python2.7/site-packages/neutron/plugins/ml2/plugin.py", line 808, in create_port
+2015-03-10 03:16:56.238 27056 TRACE neutron.api.v2.resource     self.delete_port(context, result['id'])
+2015-03-10 03:16:56.238 27056 TRACE neutron.api.v2.resource   File "/usr/lib/python2.7/site-packages/neutron/openstack/common/excutils.py", line 82, in __exit__
+2015-03-10 03:16:56.238 27056 TRACE neutron.api.v2.resource     six.reraise(self.type_, self.value, self.tb)
+2015-03-10 03:16:56.238 27056 TRACE neutron.api.v2.resource   File "/usr/lib/python2.7/site-packages/neutron/plugins/ml2/plugin.py", line 803, in create_port
+2015-03-10 03:16:56.238 27056 TRACE neutron.api.v2.resource     self.mechanism_manager.create_port_postcommit(mech_context)
+2015-03-10 03:16:56.238 27056 TRACE neutron.api.v2.resource   File "/usr/lib/python2.7/site-packages/neutron/plugins/ml2/managers.py", line 500, in create_port_postcommit
+2015-03-10 03:16:56.238 27056 TRACE neutron.api.v2.resource     self._call_on_drivers("create_port_postcommit", context)
+2015-03-10 03:16:56.238 27056 TRACE neutron.api.v2.resource   File "/usr/lib/python2.7/site-packages/neutron/plugins/ml2/managers.py", line 302, in _call_on_drivers
+2015-03-10 03:16:56.238 27056 TRACE neutron.api.v2.resource     method=method_name
+2015-03-10 03:16:56.238 27056 TRACE neutron.api.v2.resource MechanismDriverError: create_port_postcommit failed.
+2015-03-10 03:16:56.238 27056 TRACE neutron.api.v2.resource 
+2015-03-10 03:16:56.240 27056 INFO neutron.wsgi [req-7857e298-aa30-4198-bca2-68dc8b4ac37e None] 13.0.0.3 - - [10/Mar/2015 03:16:56] "POST /v2.0/ports.json HTTP/1.1" 500 318 14.325583
+2015-03-10 03:16:56.709 26955 INFO urllib3.connectionpool [-] Starting new HTTP connection (1): 13.0.0.250
+2015-03-10 03:16:56.749 27056 INFO neutron.plugins.ml2.drivers.cisco.n1kv.n1kv_client [req-d77f5f2c-fe4b-418b-a562-dd8a0e7e2cc4 None] VSM: Successfully created "vm-network vmn_1b71fdbe-e571-4cf8-98ff-19a9b1bf5009_7fb35a11-cb1d-4243-8d79-dc4c73a69f27"
+2015-03-10 03:16:56.750 27056 INFO neutron.plugins.ml2.drivers.cisco.n1kv.mech_cisco_n1kv [req-d77f5f2c-fe4b-418b-a562-dd8a0e7e2cc4 None] Create port(postcommit) succeeded for port: d0a9bd32-db4a-4c0f-8263-b518abf99c68 on network: 7fb35a11-cb1d-4243-8d79-dc4c73a69f27 with policy profile ID: 1b71fdbe-e571-4cf8-98ff-19a9b1bf5009
+2015-03-10 03:16:56.764 27056 INFO neutron.plugins.ml2.managers [req-d77f5f2c-fe4b-418b-a562-dd8a0e7e2cc4 None] Extended network dict for driver 'cisco_n1kv_ext'
+2015-03-10 03:16:56.782 27056 INFO neutron.wsgi [req-d77f5f2c-fe4b-418b-a562-dd8a0e7e2cc4 None] 13.0.0.3 - - [10/Mar/2015 03:16:56] "POST /v2.0/ports.json HTTP/1.1" 201 754 7.657269
+2015-03-10 16:56:00.094 3046 INFO neutron.plugins.ml2.managers [req-fd04f235-ec77-4018-bb0a-63aff09b753c None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-10 16:56:00.104 3046 INFO neutron.plugins.ml2.managers [req-fd04f235-ec77-4018-bb0a-63aff09b753c None] Extended network dict for driver 'cisco_n1kv_ext'
+2015-03-10 16:56:00.122 3046 INFO neutron.plugins.ml2.managers [req-fd04f235-ec77-4018-bb0a-63aff09b753c None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-10 16:56:00.125 3046 INFO neutron.plugins.ml2.managers [req-fd04f235-ec77-4018-bb0a-63aff09b753c None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-10 16:56:00.138 3046 INFO neutron.plugins.ml2.managers [req-fd04f235-ec77-4018-bb0a-63aff09b753c None] Extended network dict for driver 'cisco_n1kv_ext'
+2015-03-10 16:56:00.150 3046 INFO neutron.plugins.ml2.managers [req-fd04f235-ec77-4018-bb0a-63aff09b753c None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-10 16:56:00.158 3046 INFO neutron.plugins.ml2.managers [req-fd04f235-ec77-4018-bb0a-63aff09b753c None] Extended network dict for driver 'cisco_n1kv_ext'
+2015-03-10 16:56:00.172 3046 INFO neutron.plugins.ml2.managers [req-fd04f235-ec77-4018-bb0a-63aff09b753c None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-10 16:56:00.174 3046 INFO neutron.plugins.ml2.managers [req-fd04f235-ec77-4018-bb0a-63aff09b753c None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-10 16:56:00.183 3046 INFO neutron.plugins.ml2.managers [req-fd04f235-ec77-4018-bb0a-63aff09b753c None] Extended network dict for driver 'cisco_n1kv_ext'
+2015-03-10 16:56:00.194 3046 INFO neutron.plugins.ml2.managers [req-fd04f235-ec77-4018-bb0a-63aff09b753c None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-10 16:56:00.201 3046 INFO neutron.plugins.ml2.managers [req-fd04f235-ec77-4018-bb0a-63aff09b753c None] Extended network dict for driver 'cisco_n1kv_ext'
+2015-03-10 16:56:00.217 3046 INFO neutron.plugins.ml2.managers [req-fd04f235-ec77-4018-bb0a-63aff09b753c None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-10 16:56:00.219 3046 INFO neutron.plugins.ml2.managers [req-fd04f235-ec77-4018-bb0a-63aff09b753c None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-10 16:56:00.301 3046 INFO neutron.plugins.ml2.managers [req-fd04f235-ec77-4018-bb0a-63aff09b753c None] Extended network dict for driver 'cisco_n1kv_ext'
+2015-03-10 16:56:00.307 3046 INFO oslo.messaging._drivers.impl_rabbit [-] Connecting to AMQP server on 13.0.0.3:5672
+2015-03-10 16:56:00.316 3046 INFO oslo.messaging._drivers.impl_rabbit [-] Connected to AMQP server on 13.0.0.3:5672
+2015-03-10 16:56:00.632 3047 INFO neutron.plugins.ml2.managers [req-fd04f235-ec77-4018-bb0a-63aff09b753c None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-10 16:56:00.634 3047 INFO neutron.plugins.ml2.managers [req-fd04f235-ec77-4018-bb0a-63aff09b753c None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-10 16:56:00.643 3047 INFO neutron.plugins.ml2.managers [req-fd04f235-ec77-4018-bb0a-63aff09b753c None] Extended network dict for driver 'cisco_n1kv_ext'
+2015-03-10 16:56:00.976 3048 INFO neutron.plugins.ml2.managers [req-fd04f235-ec77-4018-bb0a-63aff09b753c None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-10 16:56:00.979 3048 INFO neutron.plugins.ml2.managers [req-fd04f235-ec77-4018-bb0a-63aff09b753c None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-10 16:56:00.991 3048 INFO neutron.plugins.ml2.managers [req-fd04f235-ec77-4018-bb0a-63aff09b753c None] Extended network dict for driver 'cisco_n1kv_ext'
+2015-03-10 16:56:01.322 3049 INFO neutron.plugins.ml2.managers [req-fd04f235-ec77-4018-bb0a-63aff09b753c None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-10 16:56:01.324 3049 INFO neutron.plugins.ml2.managers [req-fd04f235-ec77-4018-bb0a-63aff09b753c None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-10 16:56:01.339 3049 INFO neutron.plugins.ml2.managers [req-fd04f235-ec77-4018-bb0a-63aff09b753c None] Extended network dict for driver 'cisco_n1kv_ext'
+2015-03-10 16:56:01.664 3028 INFO neutron.plugins.ml2.drivers.cisco.n1kv.n1kv_client [req-51dde384-5371-4c1e-a8f4-80508ee80dc5 None] VSM: Successfully created "vm-network vmn_35825bcb-9ab0-48a8-9e98-b922386e0f04_a6c06cf5-2cbf-4586-8ea2-619372c8f1c7"
+2015-03-10 16:56:01.665 3028 INFO neutron.plugins.ml2.drivers.cisco.n1kv.mech_cisco_n1kv [req-51dde384-5371-4c1e-a8f4-80508ee80dc5 None] Create port(postcommit) succeeded for port: 5dfb7cfa-0c31-42e6-a716-d3dd66a93f9e on network: a6c06cf5-2cbf-4586-8ea2-619372c8f1c7 with policy profile ID: 35825bcb-9ab0-48a8-9e98-b922386e0f04
+2015-03-10 16:56:01.665 3029 INFO neutron.plugins.ml2.drivers.cisco.n1kv.mech_cisco_n1kv [req-8ece27c8-887d-4477-bb4e-2ef21b095ca8 None] Internal VSM Error: %(reason)s.
+2015-03-10 16:56:01.666 3029 ERROR neutron.plugins.ml2.managers [req-8ece27c8-887d-4477-bb4e-2ef21b095ca8 None] Mechanism driver 'cisco_n1kv' failed in create_port_postcommit
+2015-03-10 16:56:01.666 3029 TRACE neutron.plugins.ml2.managers Traceback (most recent call last):
+2015-03-10 16:56:01.666 3029 TRACE neutron.plugins.ml2.managers   File "/usr/lib/python2.7/site-packages/neutron/plugins/ml2/managers.py", line 291, in _call_on_drivers
+2015-03-10 16:56:01.666 3029 TRACE neutron.plugins.ml2.managers     getattr(driver.obj, method_name)(context)
+2015-03-10 16:56:01.666 3029 TRACE neutron.plugins.ml2.managers   File "/usr/lib/python2.7/site-packages/neutron/plugins/ml2/drivers/cisco/n1kv/mech_cisco_n1kv.py", line 258, in create_port_postcommit
+2015-03-10 16:56:01.666 3029 TRACE neutron.plugins.ml2.managers     raise ml2_exc.MechanismDriverError()
+2015-03-10 16:56:01.666 3029 TRACE neutron.plugins.ml2.managers MechanismDriverError: <unprintable MechanismDriverError object>
+2015-03-10 16:56:01.666 3029 TRACE neutron.plugins.ml2.managers 
+2015-03-10 16:56:01.667 3029 ERROR neutron.plugins.ml2.plugin [req-8ece27c8-887d-4477-bb4e-2ef21b095ca8 None] mechanism_manager.create_port_postcommit failed, deleting port 'db7b6caf-74ec-469c-b793-e72741ac6919'
+2015-03-10 16:56:01.675 3038 INFO neutron.plugins.ml2.drivers.cisco.n1kv.n1kv_client [req-dcb0f023-055b-4c65-bf3f-8c69a811e07d None] VSM: Successfully created "vm-network vmn_35825bcb-9ab0-48a8-9e98-b922386e0f04_cd2be57a-8869-4077-860c-47ee98f55e64"
+2015-03-10 16:56:01.676 3038 INFO neutron.plugins.ml2.drivers.cisco.n1kv.mech_cisco_n1kv [req-dcb0f023-055b-4c65-bf3f-8c69a811e07d None] Create port(postcommit) succeeded for port: ff369e6b-cc59-4a7b-bd94-2cccb75efd4b on network: cd2be57a-8869-4077-860c-47ee98f55e64 with policy profile ID: 35825bcb-9ab0-48a8-9e98-b922386e0f04
+2015-03-10 16:56:01.686 3029 ERROR root [req-8ece27c8-887d-4477-bb4e-2ef21b095ca8 ] Original exception being dropped: ['Traceback (most recent call last):\n', '  File "/usr/lib/python2.7/site-packages/neutron/plugins/ml2/plugin.py", line 803, in create_port\n    self.mechanism_manager.create_port_postcommit(mech_context)\n', '  File "/usr/lib/python2.7/site-packages/neutron/plugins/ml2/managers.py", line 500, in create_port_postcommit\n    self._call_on_drivers("create_port_postcommit", context)\n', '  File "/usr/lib/python2.7/site-packages/neutron/plugins/ml2/managers.py", line 302, in _call_on_drivers\n    method=method_name\n', 'MechanismDriverError: create_port_postcommit failed.\n']
+2015-03-10 16:56:01.686 3029 INFO neutron.api.v2.resource [req-8ece27c8-887d-4477-bb4e-2ef21b095ca8 None] add_router_interface failed (client error): Port db7b6caf-74ec-469c-b793-e72741ac6919 has owner network:router_interface and therefore cannot be deleted directly via the port API.
+2015-03-10 16:56:01.687 3029 INFO neutron.wsgi [req-8ece27c8-887d-4477-bb4e-2ef21b095ca8 None] 13.0.0.3 - - [10/Mar/2015 16:56:01] "PUT /v2.0/routers/f794d1b7-2009-4b23-9a5c-62191d9e5c79/add_router_interface.json HTTP/1.1" 409 401 4.809792
+2015-03-10 16:56:01.692 3028 INFO neutron.plugins.ml2.drivers.cisco.n1kv.n1kv_client [req-55bb6512-8c37-43c4-a231-e55e3522a690 None] VSM: Successfully created "vm-network vmn_35825bcb-9ab0-48a8-9e98-b922386e0f04_3149049e-c2d0-43ec-bccc-45b4e9dcd6b8"
+2015-03-10 16:56:01.692 3028 INFO neutron.plugins.ml2.drivers.cisco.n1kv.mech_cisco_n1kv [req-55bb6512-8c37-43c4-a231-e55e3522a690 None] Create port(postcommit) succeeded for port: be806a16-21d1-48e3-8140-b473cece418b on network: 3149049e-c2d0-43ec-bccc-45b4e9dcd6b8 with policy profile ID: 35825bcb-9ab0-48a8-9e98-b922386e0f04
+2015-03-10 16:56:01.715 3038 INFO neutron.wsgi [req-dcb0f023-055b-4c65-bf3f-8c69a811e07d None] 13.0.0.3 - - [10/Mar/2015 16:56:01] "PUT /v2.0/routers/f1de4366-8d2e-4796-aa12-32fba8f69865/add_router_interface.json HTTP/1.1" 200 389 6.016565
+2015-03-10 16:56:01.743 3028 INFO oslo.messaging._drivers.impl_rabbit [req-55bb6512-8c37-43c4-a231-e55e3522a690 ] Connecting to AMQP server on 13.0.0.3:5672

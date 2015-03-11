@@ -1,0 +1,55 @@
+ show nsm network segment | no-more
+
+Name: 54e40640-c75a-42ce-bb04-31dc66674092
+  Description: net-mgmt
+  UUID: 54e40640-c75a-42ce-bb04-31dc66674092
+  Network segment pool: e8e3a190-781b-4519-b658-089834ffee9a
+  Mode: switchport mode access
+  Vlan: 1400
+  System Network Segment: FALSE
+  ip pool template: 
+  ip pool template UUID: 
+  Publish-name: 54e40640-c75a-42ce-bb04-31dc66674092
+
+Name: 6c1de2ea-c76b-42df-adeb-8726a38cb621
+  Description: net-5002
+  UUID: 6c1de2ea-c76b-42df-adeb-8726a38cb621
+  Network segment pool: 7e0a786d-d1da-418e-ac36-e32a3ba912f1
+  Bridge-domain: 6c1de2ea-c76b-42df-adeb-8726a38cb621_bd
+  System Network Segment: FALSE
+  ip pool template: 
+  ip pool template UUID: 
+  Publish-name: 6c1de2ea-c76b-42df-adeb-8726a38cb621
+
+Name: 75d685c7-f806-4883-89db-a76e5a02c9a7
+  Description: net-5004
+  UUID: 75d685c7-f806-4883-89db-a76e5a02c9a7
+  Network segment pool: 288fb215-f9ce-43ed-bc26-e03072d1196e
+  Bridge-domain: 75d685c7-f806-4883-89db-a76e5a02c9a7_bd
+  System Network Segment: FALSE
+  ip pool template: 
+  ip pool template UUID: 
+  Publish-name: 75d685c7-f806-4883-89db-a76e5a02c9a7
+
+Name: cefbe928-cd5f-4287-bb96-73d03615c7c0
+  Description: net1
+  UUID: cefbe928-cd5f-4287-bb96-73d03615c7c0
+  Network segment pool: b80204b4-2d4d-4d26-abd0-ed4b824fd657
+  Bridge-domain: cefbe928-cd5f-4287-bb96-73d03615c7c0_bd
+  System Network Segment: FALSE
+  ip pool template: 
+  ip pool template UUID: 
+  Publish-name: cefbe928-cd5f-4287-bb96-73d03615c7c0
+
+Name: ee5ca44f-e708-4ff3-835a-fe39b2ba3bca
+  Description: net-trunk
+  UUID: ee5ca44f-e708-4ff3-835a-fe39b2ba3bca
+  Network segment pool: 64a9bcad-37d1-4999-9887-1684703d806d
+  Mode: switchport mode trunk
+  Vlan: 0
+  System Network Segment: FALSE
+  ip pool template: 
+  ip pool template UUID: 
+  Publish-name: ee5ca44f-e708-4ff3-835a-fe39b2ba3bca
+
+vdani-vsm#

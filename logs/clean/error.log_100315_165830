@@ -1,0 +1,434 @@
+2015-03-08 16:58:22.136 27745 INFO urllib3.connectionpool [-] Starting new HTTP connection (1): 13.0.0.250
+2015-03-09 16:58:07.806 10526 INFO neutron.wsgi [-] (10526) accepted ('13.0.0.3', 43329)
+2015-03-09 16:58:07.809 10526 INFO urllib3.connectionpool [-] Starting new HTTP connection (1): 13.0.0.25
+2015-03-09 16:58:07.997 10526 INFO neutron.plugins.ml2.managers [req-504ba0e2-d66a-4615-83ce-4a6381dfc9b9 None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-09 16:58:07.999 10526 INFO neutron.wsgi [req-504ba0e2-d66a-4615-83ce-4a6381dfc9b9 None] 13.0.0.3 - - [09/Mar/2015 16:58:07] "GET /v2.0/ports.json?tenant_id=cd8e05c53c6f4db79368f04564dcb4d3&device_id=59ffe5b8-8e12-4478-831b-c0d8f384acdc HTTP/1.1" 200 996 0.192616
+2015-03-09 16:58:08.002 10526 INFO neutron.wsgi [-] (10526) accepted ('13.0.0.3', 43334)
+2015-03-09 16:58:08.015 10526 INFO neutron.plugins.ml2.managers [req-1d4c800a-a5f3-4c63-8631-c1c4a5288c46 None] Extended network dict for driver 'cisco_n1kv_ext'
+2015-03-09 16:58:08.018 10526 INFO neutron.wsgi [req-1d4c800a-a5f3-4c63-8631-c1c4a5288c46 None] 13.0.0.3 - - [09/Mar/2015 16:58:08] "GET /v2.0/networks.json?id=df8bd371-18ae-44ed-abf8-5e614803e447 HTTP/1.1" 200 577 0.014955
+2015-03-09 16:58:08.021 10526 INFO neutron.wsgi [-] (10526) accepted ('13.0.0.3', 43335)
+2015-03-09 16:58:08.025 10526 INFO neutron.wsgi [req-47260519-b38f-4744-a167-25f2110073fa None] 13.0.0.3 - - [09/Mar/2015 16:58:08] "GET /v2.0/floatingips.json?fixed_ip_address=14.6.6.2&port_id=bfd1bb3b-fda3-4608-8dee-482fffdd7b8e HTTP/1.1" 200 208 0.004305
+2015-03-09 16:58:08.028 10529 INFO neutron.wsgi [-] (10529) accepted ('13.0.0.3', 43336)
+2015-03-09 16:58:08.040 10529 INFO neutron.plugins.ml2.managers [req-6bea964e-f8e4-4ca4-84d7-62b3350480c8 None] Extended subnet dict for driver 'cisco_n1kv_ext'
+2015-03-09 16:58:08.041 10529 INFO neutron.wsgi [req-6bea964e-f8e4-4ca4-84d7-62b3350480c8 None] 13.0.0.3 - - [09/Mar/2015 16:58:08] "GET /v2.0/subnets.json?id=f0feaf96-f1f4-4b9a-a633-1d8ef290aaae HTTP/1.1" 200 622 0.012293
+2015-03-09 16:58:08.043 10537 INFO neutron.wsgi [-] (10537) accepted ('13.0.0.3', 43338)
+2015-03-09 16:58:08.059 10537 INFO neutron.plugins.ml2.managers [req-6e8acf9f-1a39-4af1-af95-484720348401 None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-09 16:58:08.061 10537 INFO neutron.wsgi [req-6e8acf9f-1a39-4af1-af95-484720348401 None] 13.0.0.3 - - [09/Mar/2015 16:58:08] "GET /v2.0/ports.json?network_id=df8bd371-18ae-44ed-abf8-5e614803e447&device_owner=network%3Adhcp HTTP/1.1" 200 983 0.016571
+2015-03-09 16:58:33.790 10507 INFO urllib3.connectionpool [-] Starting new HTTP connection (1): 13.0.0.250
+2015-03-09 16:58:55.556 10530 INFO neutron.wsgi [-] (10530) accepted ('13.0.0.3', 44125)
+2015-03-09 16:58:55.559 10530 INFO urllib3.connectionpool [-] Resetting dropped connection: 13.0.0.25
+2015-03-09 16:58:55.701 10530 INFO neutron.plugins.ml2.managers [req-aabfba34-ebed-4eb8-a2cc-918c9efc394f None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-09 16:58:55.702 10530 INFO neutron.wsgi [req-aabfba34-ebed-4eb8-a2cc-918c9efc394f None] 13.0.0.3 - - [09/Mar/2015 16:58:55] "GET /v2.0/ports.json?tenant_id=cd8e05c53c6f4db79368f04564dcb4d3&device_id=c364603b-cb2a-40fa-8d2e-d4d790d4cab0 HTTP/1.1" 200 996 0.144785
+2015-03-09 16:58:55.705 10530 INFO neutron.wsgi [-] (10530) accepted ('13.0.0.3', 44144)
+2015-03-09 16:58:55.716 10530 INFO neutron.plugins.ml2.managers [req-9114ffc3-e40e-4aa3-846f-a4c6cb932602 None] Extended network dict for driver 'cisco_n1kv_ext'
+2015-03-09 16:58:55.718 10530 INFO neutron.wsgi [req-9114ffc3-e40e-4aa3-846f-a4c6cb932602 None] 13.0.0.3 - - [09/Mar/2015 16:58:55] "GET /v2.0/networks.json?id=7a861745-89a3-49ac-82fe-d60ac764161a HTTP/1.1" 200 577 0.012967
+2015-03-09 16:58:55.721 10526 INFO neutron.wsgi [-] (10526) accepted ('13.0.0.3', 44145)
+2015-03-09 16:58:55.723 10526 INFO urllib3.connectionpool [-] Resetting dropped connection: 13.0.0.25
+2015-03-09 16:58:55.776 10526 INFO neutron.wsgi [req-ae7fb6d8-61c6-4f25-b66b-d5b385f6de23 None] 13.0.0.3 - - [09/Mar/2015 16:58:55] "GET /v2.0/floatingips.json?fixed_ip_address=14.6.7.2&port_id=936cb853-6c07-478c-b1d1-42e102d32458 HTTP/1.1" 200 208 0.054139
+2015-03-09 16:58:55.778 10526 INFO neutron.wsgi [-] (10526) accepted ('13.0.0.3', 44148)
+2015-03-09 16:58:55.865 10526 INFO neutron.plugins.ml2.managers [req-fcfeba7a-081a-4ce0-97c6-010dbe313090 None] Extended subnet dict for driver 'cisco_n1kv_ext'
+2015-03-09 16:58:55.866 10526 INFO neutron.wsgi [req-fcfeba7a-081a-4ce0-97c6-010dbe313090 None] 13.0.0.3 - - [09/Mar/2015 16:58:55] "GET /v2.0/subnets.json?id=4f424607-cc9b-464e-8127-7b5b345c97bc HTTP/1.1" 200 622 0.086850
+2015-03-09 16:58:55.868 10526 INFO neutron.wsgi [-] (10526) accepted ('13.0.0.3', 44149)
+2015-03-09 16:58:55.884 10526 INFO neutron.plugins.ml2.managers [req-e1746845-ee90-4bf4-a73b-96147f5e6393 None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-09 16:58:55.885 10526 INFO neutron.wsgi [req-e1746845-ee90-4bf4-a73b-96147f5e6393 None] 13.0.0.3 - - [09/Mar/2015 16:58:55] "GET /v2.0/ports.json?network_id=7a861745-89a3-49ac-82fe-d60ac764161a&device_owner=network%3Adhcp HTTP/1.1" 200 983 0.016343
+2015-03-10 03:16:58.065 27062 INFO neutron.plugins.ml2.managers [req-fd04f235-ec77-4018-bb0a-63aff09b753c None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-10 03:16:58.073 27062 INFO neutron.plugins.ml2.managers [req-fd04f235-ec77-4018-bb0a-63aff09b753c None] Extended network dict for driver 'cisco_n1kv_ext'
+2015-03-10 03:16:58.163 27062 INFO neutron.plugins.ml2.managers [req-fd04f235-ec77-4018-bb0a-63aff09b753c None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-10 03:16:58.166 27062 INFO neutron.plugins.ml2.managers [req-fd04f235-ec77-4018-bb0a-63aff09b753c None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-10 03:16:58.176 27062 INFO neutron.plugins.ml2.managers [req-fd04f235-ec77-4018-bb0a-63aff09b753c None] Extended network dict for driver 'cisco_n1kv_ext'
+2015-03-10 03:16:58.495 27063 INFO neutron.plugins.ml2.managers [req-fd04f235-ec77-4018-bb0a-63aff09b753c None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-10 03:16:58.497 27063 INFO neutron.plugins.ml2.managers [req-fd04f235-ec77-4018-bb0a-63aff09b753c None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-10 03:16:58.508 27063 INFO neutron.plugins.ml2.managers [req-fd04f235-ec77-4018-bb0a-63aff09b753c None] Extended network dict for driver 'cisco_n1kv_ext'
+2015-03-10 16:58:20.727 2859 INFO urllib3.connectionpool [-] Starting new HTTP connection (1): 13.0.0.250
+2015-03-10 16:58:29.796 3038 INFO neutron.wsgi [-] (3038) accepted ('13.0.0.3', 34571)
+2015-03-10 16:58:29.798 3038 INFO urllib3.connectionpool [-] Resetting dropped connection: 13.0.0.25
+2015-03-10 16:58:29.824 3040 INFO neutron.wsgi [-] (3040) accepted ('13.0.0.3', 34577)
+2015-03-10 16:58:29.827 3040 INFO urllib3.connectionpool [-] Resetting dropped connection: 13.0.0.25
+2015-03-10 16:58:29.868 3026 INFO neutron.wsgi [-] (3026) accepted ('13.0.0.3', 34581)
+2015-03-10 16:58:29.872 3039 INFO neutron.wsgi [-] (3039) accepted ('13.0.0.3', 34583)
+2015-03-10 16:58:29.872 3026 INFO urllib3.connectionpool [-] Resetting dropped connection: 13.0.0.25
+2015-03-10 16:58:29.875 3039 INFO urllib3.connectionpool [-] Resetting dropped connection: 13.0.0.25
+2015-03-10 16:58:29.913 3040 INFO neutron.plugins.ml2.managers [req-1cd8474e-1093-4d87-bbb2-677c01f71c68 None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-10 16:58:29.916 3040 INFO neutron.plugins.ml2.managers [req-1cd8474e-1093-4d87-bbb2-677c01f71c68 None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-10 16:58:29.918 3026 INFO neutron.wsgi [-] (3026) accepted ('13.0.0.3', 34593)
+2015-03-10 16:58:29.920 3040 INFO neutron.plugins.ml2.managers [req-1cd8474e-1093-4d87-bbb2-677c01f71c68 None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-10 16:58:29.923 3040 INFO neutron.plugins.ml2.managers [req-1cd8474e-1093-4d87-bbb2-677c01f71c68 None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-10 16:58:29.926 3040 INFO neutron.wsgi [req-1cd8474e-1093-4d87-bbb2-677c01f71c68 None] 13.0.0.3 - - [10/Mar/2015 16:58:29] "GET /v2.0/ports.json HTTP/1.1" 200 2546 0.101052
+2015-03-10 16:58:29.933 3038 INFO neutron.plugins.ml2.managers [req-5ef237b2-eb88-475b-8904-c36741e60ae0 None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-10 16:58:29.937 3038 INFO neutron.plugins.ml2.managers [req-5ef237b2-eb88-475b-8904-c36741e60ae0 None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-10 16:58:29.939 3038 INFO neutron.plugins.ml2.managers [req-5ef237b2-eb88-475b-8904-c36741e60ae0 None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-10 16:58:29.942 3038 INFO neutron.plugins.ml2.managers [req-5ef237b2-eb88-475b-8904-c36741e60ae0 None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-10 16:58:29.946 3038 INFO neutron.wsgi [req-5ef237b2-eb88-475b-8904-c36741e60ae0 None] 13.0.0.3 - - [10/Mar/2015 16:58:29] "GET /v2.0/ports.json HTTP/1.1" 200 2546 0.149337
+2015-03-10 16:58:29.946 3027 INFO neutron.wsgi [-] (3027) accepted ('13.0.0.3', 34595)
+2015-03-10 16:58:29.949 3027 INFO urllib3.connectionpool [-] Resetting dropped connection: 13.0.0.25
+2015-03-10 16:58:29.951 3026 INFO neutron.wsgi [req-d1689e5b-c975-460f-b82f-9da426288e39 None] 13.0.0.3 - - [10/Mar/2015 16:58:29] "GET /v2.0/ports.json HTTP/1.1" 200 202 0.080725
+2015-03-10 16:58:29.965 3039 INFO neutron.plugins.ml2.managers [req-9a0f25b1-5484-4236-aaab-1a0641ce05df None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-10 16:58:29.968 3039 INFO neutron.plugins.ml2.managers [req-9a0f25b1-5484-4236-aaab-1a0641ce05df None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-10 16:58:29.969 3027 INFO neutron.wsgi [-] (3027) accepted ('13.0.0.3', 34599)
+2015-03-10 16:58:29.973 3027 INFO urllib3.connectionpool [-] Resetting dropped connection: 13.0.0.25
+2015-03-10 16:58:29.973 3039 INFO neutron.plugins.ml2.managers [req-9a0f25b1-5484-4236-aaab-1a0641ce05df None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-10 16:58:29.976 3039 INFO neutron.plugins.ml2.managers [req-9a0f25b1-5484-4236-aaab-1a0641ce05df None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-10 16:58:29.977 3027 INFO neutron.wsgi [-] (3027) accepted ('13.0.0.3', 34603)
+2015-03-10 16:58:29.979 3026 INFO neutron.plugins.ml2.managers [req-56668139-28b4-48a2-92dc-e9453bc31e8f None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-10 16:58:29.980 3039 INFO neutron.wsgi [req-9a0f25b1-5484-4236-aaab-1a0641ce05df None] 13.0.0.3 - - [10/Mar/2015 16:58:29] "GET /v2.0/ports.json HTTP/1.1" 200 2546 0.107292
+2015-03-10 16:58:29.980 3027 INFO urllib3.connectionpool [-] Resetting dropped connection: 13.0.0.25
+2015-03-10 16:58:29.982 3026 INFO neutron.plugins.ml2.managers [req-56668139-28b4-48a2-92dc-e9453bc31e8f None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-10 16:58:29.985 3026 INFO neutron.plugins.ml2.managers [req-56668139-28b4-48a2-92dc-e9453bc31e8f None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-10 16:58:29.989 3026 INFO neutron.plugins.ml2.managers [req-56668139-28b4-48a2-92dc-e9453bc31e8f None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-10 16:58:29.994 3026 INFO neutron.wsgi [req-56668139-28b4-48a2-92dc-e9453bc31e8f None] 13.0.0.3 - - [10/Mar/2015 16:58:29] "GET /v2.0/ports.json HTTP/1.1" 200 2546 0.074704
+2015-03-10 16:58:30.037 3027 INFO neutron.plugins.ml2.managers [req-7fdd8f9b-cfc6-4738-81f9-be919c598d8c None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-10 16:58:30.048 3027 INFO neutron.plugins.ml2.managers [req-7fdd8f9b-cfc6-4738-81f9-be919c598d8c None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-10 16:58:30.057 3037 INFO neutron.wsgi [-] (3037) accepted ('13.0.0.3', 34607)
+2015-03-10 16:58:30.058 3026 INFO neutron.wsgi [-] (3026) accepted ('13.0.0.3', 34609)
+2015-03-10 16:58:30.059 3027 INFO neutron.plugins.ml2.managers [req-7fdd8f9b-cfc6-4738-81f9-be919c598d8c None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-10 16:58:30.060 3037 INFO urllib3.connectionpool [-] Starting new HTTP connection (1): 13.0.0.25
+2015-03-10 16:58:30.062 3027 INFO neutron.plugins.ml2.managers [req-7fdd8f9b-cfc6-4738-81f9-be919c598d8c None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-10 16:58:30.065 3027 INFO neutron.wsgi [req-7fdd8f9b-cfc6-4738-81f9-be919c598d8c None] 13.0.0.3 - - [10/Mar/2015 16:58:30] "GET /v2.0/ports.json HTTP/1.1" 200 2546 0.118301
+2015-03-10 16:58:30.089 3026 INFO neutron.plugins.ml2.managers [req-3557ebb6-92bd-4bc5-b6e2-e000e86461e2 None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-10 16:58:30.091 3026 INFO neutron.plugins.ml2.managers [req-3557ebb6-92bd-4bc5-b6e2-e000e86461e2 None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-10 16:58:30.093 3026 INFO neutron.plugins.ml2.managers [req-3557ebb6-92bd-4bc5-b6e2-e000e86461e2 None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-10 16:58:30.096 3026 INFO neutron.plugins.ml2.managers [req-3557ebb6-92bd-4bc5-b6e2-e000e86461e2 None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-10 16:58:30.097 3027 INFO neutron.plugins.ml2.managers [req-1d02445f-1fc7-4b3b-9bf3-b29648d7e4f9 None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-10 16:58:30.099 3026 INFO neutron.wsgi [req-3557ebb6-92bd-4bc5-b6e2-e000e86461e2 None] 13.0.0.3 - - [10/Mar/2015 16:58:30] "GET /v2.0/ports.json HTTP/1.1" 200 2550 0.040588
+2015-03-10 16:58:30.100 3027 INFO neutron.plugins.ml2.managers [req-1d02445f-1fc7-4b3b-9bf3-b29648d7e4f9 None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-10 16:58:30.103 3027 INFO neutron.plugins.ml2.managers [req-1d02445f-1fc7-4b3b-9bf3-b29648d7e4f9 None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-10 16:58:30.105 3027 INFO neutron.plugins.ml2.managers [req-1d02445f-1fc7-4b3b-9bf3-b29648d7e4f9 None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-10 16:58:30.110 3027 INFO neutron.wsgi [req-1d02445f-1fc7-4b3b-9bf3-b29648d7e4f9 None] 13.0.0.3 - - [10/Mar/2015 16:58:30] "GET /v2.0/ports.json HTTP/1.1" 200 2550 0.139363
+2015-03-10 16:58:30.129 3027 INFO neutron.plugins.ml2.managers [req-96730277-1efe-485d-912a-344403d62c1a None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-10 16:58:30.131 3027 INFO neutron.plugins.ml2.managers [req-96730277-1efe-485d-912a-344403d62c1a None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-10 16:58:30.134 3027 INFO neutron.plugins.ml2.managers [req-96730277-1efe-485d-912a-344403d62c1a None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-10 16:58:30.136 3027 INFO neutron.plugins.ml2.managers [req-96730277-1efe-485d-912a-344403d62c1a None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-10 16:58:30.139 3027 INFO neutron.wsgi [req-96730277-1efe-485d-912a-344403d62c1a None] 13.0.0.3 - - [10/Mar/2015 16:58:30] "GET /v2.0/ports.json HTTP/1.1" 200 2544 0.161525
+2015-03-10 16:58:30.256 3037 INFO neutron.plugins.ml2.managers [req-0aaf33b7-b999-43ed-a576-fcad519330df None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-10 16:58:30.258 3037 INFO neutron.plugins.ml2.managers [req-0aaf33b7-b999-43ed-a576-fcad519330df None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-10 16:58:30.260 3037 INFO neutron.plugins.ml2.managers [req-0aaf33b7-b999-43ed-a576-fcad519330df None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-10 16:58:30.263 3037 INFO neutron.wsgi [req-0aaf33b7-b999-43ed-a576-fcad519330df None] 13.0.0.3 - - [10/Mar/2015 16:58:30] "GET /v2.0/ports.json HTTP/1.1" 200 1972 0.205007
+2015-03-10 16:58:30.510 3034 INFO neutron.wsgi [-] (3034) accepted ('13.0.0.3', 34641)
+2015-03-10 16:58:30.513 3034 INFO urllib3.connectionpool [-] Resetting dropped connection: 13.0.0.25
+2015-03-10 16:58:30.556 3026 INFO neutron.wsgi [-] (3026) accepted ('13.0.0.3', 34647)
+2015-03-10 16:58:30.596 3026 INFO neutron.plugins.ml2.managers [req-ebc699ad-b357-4eb3-b1bd-63c361d128c4 None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-10 16:58:30.596 3034 INFO neutron.plugins.ml2.managers [req-d1440938-0113-4f9b-892b-dd476be36991 None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-10 16:58:30.597 3026 INFO neutron.wsgi [req-ebc699ad-b357-4eb3-b1bd-63c361d128c4 None] 13.0.0.3 - - [10/Mar/2015 16:58:30] "GET /v2.0/ports.json?fields=id&id=1d5ae930-42f0-414b-b172-e6bcce5f3fa4 HTTP/1.1" 200 248 0.040594
+2015-03-10 16:58:30.598 3034 INFO neutron.wsgi [req-d1440938-0113-4f9b-892b-dd476be36991 None] 13.0.0.3 - - [10/Mar/2015 16:58:30] "GET /v2.0/ports.json?fields=id&id=81f99ce3-2d45-4820-b4c4-b7697bf981b4 HTTP/1.1" 200 248 0.086633
+2015-03-10 16:58:30.603 3030 INFO neutron.wsgi [-] (3030) accepted ('13.0.0.3', 34651)
+2015-03-10 16:58:30.606 3030 INFO urllib3.connectionpool [-] Starting new HTTP connection (1): 13.0.0.25
+2015-03-10 16:58:30.625 3026 INFO neutron.plugins.ml2.managers [req-9072cd78-3ac1-4ce0-b334-d518172c42ac None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-10 16:58:30.627 3034 INFO neutron.plugins.ml2.managers [req-baafb738-dc96-455a-9499-ced36c153330 None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-10 16:58:30.628 3026 INFO neutron.wsgi [req-9072cd78-3ac1-4ce0-b334-d518172c42ac None] 13.0.0.3 - - [10/Mar/2015 16:58:30] "GET /v2.0/ports/1d5ae930-42f0-414b-b172-e6bcce5f3fa4.json HTTP/1.1" 200 772 0.027226
+2015-03-10 16:58:30.630 3034 INFO neutron.wsgi [req-baafb738-dc96-455a-9499-ced36c153330 None] 13.0.0.3 - - [10/Mar/2015 16:58:30] "GET /v2.0/ports/81f99ce3-2d45-4820-b4c4-b7697bf981b4.json HTTP/1.1" 200 796 0.028840
+2015-03-10 16:58:30.633 3029 INFO neutron.wsgi [-] (3029) accepted ('13.0.0.3', 34657)
+2015-03-10 16:58:30.637 3029 INFO urllib3.connectionpool [-] Resetting dropped connection: 13.0.0.25
+2015-03-10 16:58:30.660 3029 INFO neutron.wsgi [-] (3029) accepted ('13.0.0.3', 34661)
+2015-03-10 16:58:30.662 3029 INFO urllib3.connectionpool [-] Resetting dropped connection: 13.0.0.25
+2015-03-10 16:58:30.729 3033 INFO neutron.wsgi [-] (3033) accepted ('13.0.0.3', 34666)
+2015-03-10 16:58:30.730 3029 INFO neutron.plugins.ml2.managers [req-757a7eda-2d52-4df5-9f24-8f404a74e5c8 None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-10 16:58:30.731 3033 INFO urllib3.connectionpool [-] Resetting dropped connection: 13.0.0.25
+2015-03-10 16:58:30.740 3029 INFO neutron.wsgi [req-757a7eda-2d52-4df5-9f24-8f404a74e5c8 None] 13.0.0.3 - - [10/Mar/2015 16:58:30] "GET /v2.0/ports.json?fields=id&id=940f5bf2-4bd5-410d-9382-061e1543d98f HTTP/1.1" 200 248 0.079134
+2015-03-10 16:58:30.742 3029 INFO neutron.wsgi [-] (3029) accepted ('13.0.0.3', 34672)
+2015-03-10 16:58:30.743 3026 INFO neutron.wsgi [-] (3026) accepted ('13.0.0.3', 34674)
+2015-03-10 16:58:30.771 3029 INFO neutron.plugins.ml2.managers [req-55ada2eb-81ee-41ac-ae41-b3b87000a373 None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-10 16:58:30.773 3033 INFO neutron.wsgi [-] (3033) accepted ('13.0.0.3', 34676)
+2015-03-10 16:58:30.778 3026 INFO neutron.plugins.ml2.managers [req-d0b02daf-c80e-4b15-926b-04282f99c743 None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-10 16:58:30.780 3026 INFO neutron.wsgi [req-d0b02daf-c80e-4b15-926b-04282f99c743 None] 13.0.0.3 - - [10/Mar/2015 16:58:30] "GET /v2.0/ports.json?fields=id&id=6184834b-d1d0-43f3-9155-ac4c4d72f798 HTTP/1.1" 200 248 0.036034
+2015-03-10 16:58:30.781 3029 INFO neutron.wsgi [req-55ada2eb-81ee-41ac-ae41-b3b87000a373 None] 13.0.0.3 - - [10/Mar/2015 16:58:30] "GET /v2.0/ports/940f5bf2-4bd5-410d-9382-061e1543d98f.json HTTP/1.1" 200 772 0.030521
+2015-03-10 16:58:30.803 3026 INFO neutron.plugins.ml2.managers [req-aec56009-f77b-45c9-82a8-9e5b9dc5f6ce None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-10 16:58:30.806 3026 INFO neutron.wsgi [req-aec56009-f77b-45c9-82a8-9e5b9dc5f6ce None] 13.0.0.3 - - [10/Mar/2015 16:58:30] "GET /v2.0/ports/6184834b-d1d0-43f3-9155-ac4c4d72f798.json HTTP/1.1" 200 772 0.024026
+2015-03-10 16:58:30.822 3029 INFO neutron.plugins.ml2.managers [req-6720b615-3f77-4ef5-a110-b6494f0be0ab None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-10 16:58:30.824 3033 INFO neutron.plugins.ml2.managers [req-b52f68e9-fc19-4ff4-b928-e799707e890c None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-10 16:58:30.826 3029 INFO neutron.plugins.ml2.managers [req-f7104d11-7702-4b89-8207-5f7934bae91b None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-10 16:58:30.828 3029 INFO neutron.wsgi [req-6720b615-3f77-4ef5-a110-b6494f0be0ab None] 13.0.0.3 - - [10/Mar/2015 16:58:30] "GET /v2.0/ports.json?fields=id&id=096a1be6-1bae-4fb0-8718-9dee5f8025bd HTTP/1.1" 200 248 0.193264
+2015-03-10 16:58:30.829 3029 INFO neutron.wsgi [req-f7104d11-7702-4b89-8207-5f7934bae91b None] 13.0.0.3 - - [10/Mar/2015 16:58:30] "GET /v2.0/ports.json?fields=id&id=8603f1be-bf5a-4263-8f71-367f01b15f61 HTTP/1.1" 200 248 0.085634
+2015-03-10 16:58:30.834 3033 INFO neutron.wsgi [req-b52f68e9-fc19-4ff4-b928-e799707e890c None] 13.0.0.3 - - [10/Mar/2015 16:58:30] "GET /v2.0/ports.json?fields=id&id=2e4cc0ff-e2f8-46ae-9918-a90d413b274a HTTP/1.1" 200 248 0.104741
+2015-03-10 16:58:30.850 3029 INFO neutron.plugins.ml2.managers [req-1bdd1da6-3e13-46a5-a0a0-8848b7c0bfe0 None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-10 16:58:30.865 3030 INFO neutron.plugins.ml2.managers [req-51bea33d-2834-442b-afde-15b0992ce5dc None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-10 16:58:30.866 3029 INFO neutron.wsgi [req-1bdd1da6-3e13-46a5-a0a0-8848b7c0bfe0 None] 13.0.0.3 - - [10/Mar/2015 16:58:30] "GET /v2.0/ports/096a1be6-1bae-4fb0-8718-9dee5f8025bd.json HTTP/1.1" 200 773 0.035134
+2015-03-10 16:58:30.866 3030 INFO neutron.wsgi [req-51bea33d-2834-442b-afde-15b0992ce5dc None] 13.0.0.3 - - [10/Mar/2015 16:58:30] "GET /v2.0/ports.json?fields=id&id=377bf9c3-c553-4b51-b24e-6d90c5ca89bb HTTP/1.1" 200 248 0.262642
+2015-03-10 16:58:30.870 3029 INFO neutron.plugins.ml2.managers [req-e71e1580-1010-47f5-b6b7-dd9015fb76de None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-10 16:58:30.872 3029 INFO neutron.wsgi [req-e71e1580-1010-47f5-b6b7-dd9015fb76de None] 13.0.0.3 - - [10/Mar/2015 16:58:30] "GET /v2.0/ports/8603f1be-bf5a-4263-8f71-367f01b15f61.json HTTP/1.1" 200 796 0.021036
+2015-03-10 16:58:30.888 3030 INFO neutron.plugins.ml2.managers [req-11cb5e8b-f900-4252-9cbe-a36d828f1f30 None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-10 16:58:30.890 3030 INFO neutron.wsgi [req-11cb5e8b-f900-4252-9cbe-a36d828f1f30 None] 13.0.0.3 - - [10/Mar/2015 16:58:30] "GET /v2.0/ports/377bf9c3-c553-4b51-b24e-6d90c5ca89bb.json HTTP/1.1" 200 772 0.019963
+2015-03-10 16:58:30.912 3033 INFO neutron.plugins.ml2.managers [req-9bd8ae07-e339-4994-9a3a-6bf67d4aed64 None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-10 16:58:30.914 3033 INFO neutron.wsgi [req-9bd8ae07-e339-4994-9a3a-6bf67d4aed64 None] 13.0.0.3 - - [10/Mar/2015 16:58:30] "GET /v2.0/ports/2e4cc0ff-e2f8-46ae-9918-a90d413b274a.json HTTP/1.1" 200 773 0.076695
+2015-03-10 16:58:30.946 3033 INFO neutron.plugins.ml2.managers [req-0b365721-02bb-4313-aead-c145c6629a72 None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-10 16:58:30.948 3033 INFO neutron.wsgi [req-0b365721-02bb-4313-aead-c145c6629a72 None] 13.0.0.3 - - [10/Mar/2015 16:58:30] "GET /v2.0/ports.json?fields=id&id=b8d9a677-2e8f-482f-a240-bdff65977e04 HTTP/1.1" 200 248 0.174089
+2015-03-10 16:58:30.969 3033 INFO neutron.plugins.ml2.managers [req-9e201d33-d9ca-49f9-b824-006a9f9ca5aa None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-10 16:58:30.971 3033 INFO neutron.wsgi [req-9e201d33-d9ca-49f9-b824-006a9f9ca5aa None] 13.0.0.3 - - [10/Mar/2015 16:58:30] "GET /v2.0/ports/b8d9a677-2e8f-482f-a240-bdff65977e04.json HTTP/1.1" 200 772 0.019192
+2015-03-10 16:58:31.619 3030 INFO neutron.wsgi [-] (3030) accepted ('13.0.0.3', 34789)
+2015-03-10 16:58:31.662 3030 INFO neutron.plugins.ml2.managers [req-02a3e44d-2f57-45c9-8a71-9ba97662473a None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-10 16:58:31.665 3030 INFO neutron.wsgi [req-02a3e44d-2f57-45c9-8a71-9ba97662473a None] 13.0.0.3 - - [10/Mar/2015 16:58:31] "GET /v2.0/ports/81f99ce3-2d45-4820-b4c4-b7697bf981b4.json HTTP/1.1" 200 796 0.045570
+2015-03-08 16:58:22.136 27745 INFO urllib3.connectionpool [-] Starting new HTTP connection (1): 13.0.0.250
+2015-03-09 16:58:07.806 10526 INFO neutron.wsgi [-] (10526) accepted ('13.0.0.3', 43329)
+2015-03-09 16:58:07.809 10526 INFO urllib3.connectionpool [-] Starting new HTTP connection (1): 13.0.0.25
+2015-03-09 16:58:07.997 10526 INFO neutron.plugins.ml2.managers [req-504ba0e2-d66a-4615-83ce-4a6381dfc9b9 None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-09 16:58:07.999 10526 INFO neutron.wsgi [req-504ba0e2-d66a-4615-83ce-4a6381dfc9b9 None] 13.0.0.3 - - [09/Mar/2015 16:58:07] "GET /v2.0/ports.json?tenant_id=cd8e05c53c6f4db79368f04564dcb4d3&device_id=59ffe5b8-8e12-4478-831b-c0d8f384acdc HTTP/1.1" 200 996 0.192616
+2015-03-09 16:58:08.002 10526 INFO neutron.wsgi [-] (10526) accepted ('13.0.0.3', 43334)
+2015-03-09 16:58:08.015 10526 INFO neutron.plugins.ml2.managers [req-1d4c800a-a5f3-4c63-8631-c1c4a5288c46 None] Extended network dict for driver 'cisco_n1kv_ext'
+2015-03-09 16:58:08.018 10526 INFO neutron.wsgi [req-1d4c800a-a5f3-4c63-8631-c1c4a5288c46 None] 13.0.0.3 - - [09/Mar/2015 16:58:08] "GET /v2.0/networks.json?id=df8bd371-18ae-44ed-abf8-5e614803e447 HTTP/1.1" 200 577 0.014955
+2015-03-09 16:58:08.021 10526 INFO neutron.wsgi [-] (10526) accepted ('13.0.0.3', 43335)
+2015-03-09 16:58:08.025 10526 INFO neutron.wsgi [req-47260519-b38f-4744-a167-25f2110073fa None] 13.0.0.3 - - [09/Mar/2015 16:58:08] "GET /v2.0/floatingips.json?fixed_ip_address=14.6.6.2&port_id=bfd1bb3b-fda3-4608-8dee-482fffdd7b8e HTTP/1.1" 200 208 0.004305
+2015-03-09 16:58:08.028 10529 INFO neutron.wsgi [-] (10529) accepted ('13.0.0.3', 43336)
+2015-03-09 16:58:08.040 10529 INFO neutron.plugins.ml2.managers [req-6bea964e-f8e4-4ca4-84d7-62b3350480c8 None] Extended subnet dict for driver 'cisco_n1kv_ext'
+2015-03-09 16:58:08.041 10529 INFO neutron.wsgi [req-6bea964e-f8e4-4ca4-84d7-62b3350480c8 None] 13.0.0.3 - - [09/Mar/2015 16:58:08] "GET /v2.0/subnets.json?id=f0feaf96-f1f4-4b9a-a633-1d8ef290aaae HTTP/1.1" 200 622 0.012293
+2015-03-09 16:58:08.043 10537 INFO neutron.wsgi [-] (10537) accepted ('13.0.0.3', 43338)
+2015-03-09 16:58:08.059 10537 INFO neutron.plugins.ml2.managers [req-6e8acf9f-1a39-4af1-af95-484720348401 None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-09 16:58:08.061 10537 INFO neutron.wsgi [req-6e8acf9f-1a39-4af1-af95-484720348401 None] 13.0.0.3 - - [09/Mar/2015 16:58:08] "GET /v2.0/ports.json?network_id=df8bd371-18ae-44ed-abf8-5e614803e447&device_owner=network%3Adhcp HTTP/1.1" 200 983 0.016571
+2015-03-09 16:58:33.790 10507 INFO urllib3.connectionpool [-] Starting new HTTP connection (1): 13.0.0.250
+2015-03-09 16:58:55.556 10530 INFO neutron.wsgi [-] (10530) accepted ('13.0.0.3', 44125)
+2015-03-09 16:58:55.559 10530 INFO urllib3.connectionpool [-] Resetting dropped connection: 13.0.0.25
+2015-03-09 16:58:55.701 10530 INFO neutron.plugins.ml2.managers [req-aabfba34-ebed-4eb8-a2cc-918c9efc394f None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-09 16:58:55.702 10530 INFO neutron.wsgi [req-aabfba34-ebed-4eb8-a2cc-918c9efc394f None] 13.0.0.3 - - [09/Mar/2015 16:58:55] "GET /v2.0/ports.json?tenant_id=cd8e05c53c6f4db79368f04564dcb4d3&device_id=c364603b-cb2a-40fa-8d2e-d4d790d4cab0 HTTP/1.1" 200 996 0.144785
+2015-03-09 16:58:55.705 10530 INFO neutron.wsgi [-] (10530) accepted ('13.0.0.3', 44144)
+2015-03-09 16:58:55.716 10530 INFO neutron.plugins.ml2.managers [req-9114ffc3-e40e-4aa3-846f-a4c6cb932602 None] Extended network dict for driver 'cisco_n1kv_ext'
+2015-03-09 16:58:55.718 10530 INFO neutron.wsgi [req-9114ffc3-e40e-4aa3-846f-a4c6cb932602 None] 13.0.0.3 - - [09/Mar/2015 16:58:55] "GET /v2.0/networks.json?id=7a861745-89a3-49ac-82fe-d60ac764161a HTTP/1.1" 200 577 0.012967
+2015-03-09 16:58:55.721 10526 INFO neutron.wsgi [-] (10526) accepted ('13.0.0.3', 44145)
+2015-03-09 16:58:55.723 10526 INFO urllib3.connectionpool [-] Resetting dropped connection: 13.0.0.25
+2015-03-09 16:58:55.776 10526 INFO neutron.wsgi [req-ae7fb6d8-61c6-4f25-b66b-d5b385f6de23 None] 13.0.0.3 - - [09/Mar/2015 16:58:55] "GET /v2.0/floatingips.json?fixed_ip_address=14.6.7.2&port_id=936cb853-6c07-478c-b1d1-42e102d32458 HTTP/1.1" 200 208 0.054139
+2015-03-09 16:58:55.778 10526 INFO neutron.wsgi [-] (10526) accepted ('13.0.0.3', 44148)
+2015-03-09 16:58:55.865 10526 INFO neutron.plugins.ml2.managers [req-fcfeba7a-081a-4ce0-97c6-010dbe313090 None] Extended subnet dict for driver 'cisco_n1kv_ext'
+2015-03-09 16:58:55.866 10526 INFO neutron.wsgi [req-fcfeba7a-081a-4ce0-97c6-010dbe313090 None] 13.0.0.3 - - [09/Mar/2015 16:58:55] "GET /v2.0/subnets.json?id=4f424607-cc9b-464e-8127-7b5b345c97bc HTTP/1.1" 200 622 0.086850
+2015-03-09 16:58:55.868 10526 INFO neutron.wsgi [-] (10526) accepted ('13.0.0.3', 44149)
+2015-03-09 16:58:55.884 10526 INFO neutron.plugins.ml2.managers [req-e1746845-ee90-4bf4-a73b-96147f5e6393 None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-09 16:58:55.885 10526 INFO neutron.wsgi [req-e1746845-ee90-4bf4-a73b-96147f5e6393 None] 13.0.0.3 - - [09/Mar/2015 16:58:55] "GET /v2.0/ports.json?network_id=7a861745-89a3-49ac-82fe-d60ac764161a&device_owner=network%3Adhcp HTTP/1.1" 200 983 0.016343
+2015-03-10 03:16:58.065 27062 INFO neutron.plugins.ml2.managers [req-fd04f235-ec77-4018-bb0a-63aff09b753c None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-10 03:16:58.073 27062 INFO neutron.plugins.ml2.managers [req-fd04f235-ec77-4018-bb0a-63aff09b753c None] Extended network dict for driver 'cisco_n1kv_ext'
+2015-03-10 03:16:58.163 27062 INFO neutron.plugins.ml2.managers [req-fd04f235-ec77-4018-bb0a-63aff09b753c None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-10 03:16:58.166 27062 INFO neutron.plugins.ml2.managers [req-fd04f235-ec77-4018-bb0a-63aff09b753c None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-10 03:16:58.176 27062 INFO neutron.plugins.ml2.managers [req-fd04f235-ec77-4018-bb0a-63aff09b753c None] Extended network dict for driver 'cisco_n1kv_ext'
+2015-03-10 03:16:58.495 27063 INFO neutron.plugins.ml2.managers [req-fd04f235-ec77-4018-bb0a-63aff09b753c None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-10 03:16:58.497 27063 INFO neutron.plugins.ml2.managers [req-fd04f235-ec77-4018-bb0a-63aff09b753c None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-10 03:16:58.508 27063 INFO neutron.plugins.ml2.managers [req-fd04f235-ec77-4018-bb0a-63aff09b753c None] Extended network dict for driver 'cisco_n1kv_ext'
+2015-03-10 16:58:20.727 2859 INFO urllib3.connectionpool [-] Starting new HTTP connection (1): 13.0.0.250
+2015-03-10 16:58:29.796 3038 INFO neutron.wsgi [-] (3038) accepted ('13.0.0.3', 34571)
+2015-03-10 16:58:29.798 3038 INFO urllib3.connectionpool [-] Resetting dropped connection: 13.0.0.25
+2015-03-10 16:58:29.824 3040 INFO neutron.wsgi [-] (3040) accepted ('13.0.0.3', 34577)
+2015-03-10 16:58:29.827 3040 INFO urllib3.connectionpool [-] Resetting dropped connection: 13.0.0.25
+2015-03-10 16:58:29.868 3026 INFO neutron.wsgi [-] (3026) accepted ('13.0.0.3', 34581)
+2015-03-10 16:58:29.872 3039 INFO neutron.wsgi [-] (3039) accepted ('13.0.0.3', 34583)
+2015-03-10 16:58:29.872 3026 INFO urllib3.connectionpool [-] Resetting dropped connection: 13.0.0.25
+2015-03-10 16:58:29.875 3039 INFO urllib3.connectionpool [-] Resetting dropped connection: 13.0.0.25
+2015-03-10 16:58:29.913 3040 INFO neutron.plugins.ml2.managers [req-1cd8474e-1093-4d87-bbb2-677c01f71c68 None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-10 16:58:29.916 3040 INFO neutron.plugins.ml2.managers [req-1cd8474e-1093-4d87-bbb2-677c01f71c68 None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-10 16:58:29.918 3026 INFO neutron.wsgi [-] (3026) accepted ('13.0.0.3', 34593)
+2015-03-10 16:58:29.920 3040 INFO neutron.plugins.ml2.managers [req-1cd8474e-1093-4d87-bbb2-677c01f71c68 None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-10 16:58:29.923 3040 INFO neutron.plugins.ml2.managers [req-1cd8474e-1093-4d87-bbb2-677c01f71c68 None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-10 16:58:29.926 3040 INFO neutron.wsgi [req-1cd8474e-1093-4d87-bbb2-677c01f71c68 None] 13.0.0.3 - - [10/Mar/2015 16:58:29] "GET /v2.0/ports.json HTTP/1.1" 200 2546 0.101052
+2015-03-10 16:58:29.933 3038 INFO neutron.plugins.ml2.managers [req-5ef237b2-eb88-475b-8904-c36741e60ae0 None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-10 16:58:29.937 3038 INFO neutron.plugins.ml2.managers [req-5ef237b2-eb88-475b-8904-c36741e60ae0 None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-10 16:58:29.939 3038 INFO neutron.plugins.ml2.managers [req-5ef237b2-eb88-475b-8904-c36741e60ae0 None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-10 16:58:29.942 3038 INFO neutron.plugins.ml2.managers [req-5ef237b2-eb88-475b-8904-c36741e60ae0 None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-10 16:58:29.946 3038 INFO neutron.wsgi [req-5ef237b2-eb88-475b-8904-c36741e60ae0 None] 13.0.0.3 - - [10/Mar/2015 16:58:29] "GET /v2.0/ports.json HTTP/1.1" 200 2546 0.149337
+2015-03-10 16:58:29.946 3027 INFO neutron.wsgi [-] (3027) accepted ('13.0.0.3', 34595)
+2015-03-10 16:58:29.949 3027 INFO urllib3.connectionpool [-] Resetting dropped connection: 13.0.0.25
+2015-03-10 16:58:29.951 3026 INFO neutron.wsgi [req-d1689e5b-c975-460f-b82f-9da426288e39 None] 13.0.0.3 - - [10/Mar/2015 16:58:29] "GET /v2.0/ports.json HTTP/1.1" 200 202 0.080725
+2015-03-10 16:58:29.965 3039 INFO neutron.plugins.ml2.managers [req-9a0f25b1-5484-4236-aaab-1a0641ce05df None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-10 16:58:29.968 3039 INFO neutron.plugins.ml2.managers [req-9a0f25b1-5484-4236-aaab-1a0641ce05df None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-10 16:58:29.969 3027 INFO neutron.wsgi [-] (3027) accepted ('13.0.0.3', 34599)
+2015-03-10 16:58:29.973 3027 INFO urllib3.connectionpool [-] Resetting dropped connection: 13.0.0.25
+2015-03-10 16:58:29.973 3039 INFO neutron.plugins.ml2.managers [req-9a0f25b1-5484-4236-aaab-1a0641ce05df None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-10 16:58:29.976 3039 INFO neutron.plugins.ml2.managers [req-9a0f25b1-5484-4236-aaab-1a0641ce05df None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-10 16:58:29.977 3027 INFO neutron.wsgi [-] (3027) accepted ('13.0.0.3', 34603)
+2015-03-10 16:58:29.979 3026 INFO neutron.plugins.ml2.managers [req-56668139-28b4-48a2-92dc-e9453bc31e8f None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-10 16:58:29.980 3039 INFO neutron.wsgi [req-9a0f25b1-5484-4236-aaab-1a0641ce05df None] 13.0.0.3 - - [10/Mar/2015 16:58:29] "GET /v2.0/ports.json HTTP/1.1" 200 2546 0.107292
+2015-03-10 16:58:29.980 3027 INFO urllib3.connectionpool [-] Resetting dropped connection: 13.0.0.25
+2015-03-10 16:58:29.982 3026 INFO neutron.plugins.ml2.managers [req-56668139-28b4-48a2-92dc-e9453bc31e8f None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-10 16:58:29.985 3026 INFO neutron.plugins.ml2.managers [req-56668139-28b4-48a2-92dc-e9453bc31e8f None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-10 16:58:29.989 3026 INFO neutron.plugins.ml2.managers [req-56668139-28b4-48a2-92dc-e9453bc31e8f None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-10 16:58:29.994 3026 INFO neutron.wsgi [req-56668139-28b4-48a2-92dc-e9453bc31e8f None] 13.0.0.3 - - [10/Mar/2015 16:58:29] "GET /v2.0/ports.json HTTP/1.1" 200 2546 0.074704
+2015-03-10 16:58:30.037 3027 INFO neutron.plugins.ml2.managers [req-7fdd8f9b-cfc6-4738-81f9-be919c598d8c None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-10 16:58:30.048 3027 INFO neutron.plugins.ml2.managers [req-7fdd8f9b-cfc6-4738-81f9-be919c598d8c None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-10 16:58:30.057 3037 INFO neutron.wsgi [-] (3037) accepted ('13.0.0.3', 34607)
+2015-03-10 16:58:30.058 3026 INFO neutron.wsgi [-] (3026) accepted ('13.0.0.3', 34609)
+2015-03-10 16:58:30.059 3027 INFO neutron.plugins.ml2.managers [req-7fdd8f9b-cfc6-4738-81f9-be919c598d8c None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-10 16:58:30.060 3037 INFO urllib3.connectionpool [-] Starting new HTTP connection (1): 13.0.0.25
+2015-03-10 16:58:30.062 3027 INFO neutron.plugins.ml2.managers [req-7fdd8f9b-cfc6-4738-81f9-be919c598d8c None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-10 16:58:30.065 3027 INFO neutron.wsgi [req-7fdd8f9b-cfc6-4738-81f9-be919c598d8c None] 13.0.0.3 - - [10/Mar/2015 16:58:30] "GET /v2.0/ports.json HTTP/1.1" 200 2546 0.118301
+2015-03-10 16:58:30.089 3026 INFO neutron.plugins.ml2.managers [req-3557ebb6-92bd-4bc5-b6e2-e000e86461e2 None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-10 16:58:30.091 3026 INFO neutron.plugins.ml2.managers [req-3557ebb6-92bd-4bc5-b6e2-e000e86461e2 None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-10 16:58:30.093 3026 INFO neutron.plugins.ml2.managers [req-3557ebb6-92bd-4bc5-b6e2-e000e86461e2 None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-10 16:58:30.096 3026 INFO neutron.plugins.ml2.managers [req-3557ebb6-92bd-4bc5-b6e2-e000e86461e2 None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-10 16:58:30.097 3027 INFO neutron.plugins.ml2.managers [req-1d02445f-1fc7-4b3b-9bf3-b29648d7e4f9 None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-10 16:58:30.099 3026 INFO neutron.wsgi [req-3557ebb6-92bd-4bc5-b6e2-e000e86461e2 None] 13.0.0.3 - - [10/Mar/2015 16:58:30] "GET /v2.0/ports.json HTTP/1.1" 200 2550 0.040588
+2015-03-10 16:58:30.100 3027 INFO neutron.plugins.ml2.managers [req-1d02445f-1fc7-4b3b-9bf3-b29648d7e4f9 None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-10 16:58:30.103 3027 INFO neutron.plugins.ml2.managers [req-1d02445f-1fc7-4b3b-9bf3-b29648d7e4f9 None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-10 16:58:30.105 3027 INFO neutron.plugins.ml2.managers [req-1d02445f-1fc7-4b3b-9bf3-b29648d7e4f9 None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-10 16:58:30.110 3027 INFO neutron.wsgi [req-1d02445f-1fc7-4b3b-9bf3-b29648d7e4f9 None] 13.0.0.3 - - [10/Mar/2015 16:58:30] "GET /v2.0/ports.json HTTP/1.1" 200 2550 0.139363
+2015-03-10 16:58:30.129 3027 INFO neutron.plugins.ml2.managers [req-96730277-1efe-485d-912a-344403d62c1a None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-10 16:58:30.131 3027 INFO neutron.plugins.ml2.managers [req-96730277-1efe-485d-912a-344403d62c1a None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-10 16:58:30.134 3027 INFO neutron.plugins.ml2.managers [req-96730277-1efe-485d-912a-344403d62c1a None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-10 16:58:30.136 3027 INFO neutron.plugins.ml2.managers [req-96730277-1efe-485d-912a-344403d62c1a None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-10 16:58:30.139 3027 INFO neutron.wsgi [req-96730277-1efe-485d-912a-344403d62c1a None] 13.0.0.3 - - [10/Mar/2015 16:58:30] "GET /v2.0/ports.json HTTP/1.1" 200 2544 0.161525
+2015-03-10 16:58:30.256 3037 INFO neutron.plugins.ml2.managers [req-0aaf33b7-b999-43ed-a576-fcad519330df None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-10 16:58:30.258 3037 INFO neutron.plugins.ml2.managers [req-0aaf33b7-b999-43ed-a576-fcad519330df None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-10 16:58:30.260 3037 INFO neutron.plugins.ml2.managers [req-0aaf33b7-b999-43ed-a576-fcad519330df None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-10 16:58:30.263 3037 INFO neutron.wsgi [req-0aaf33b7-b999-43ed-a576-fcad519330df None] 13.0.0.3 - - [10/Mar/2015 16:58:30] "GET /v2.0/ports.json HTTP/1.1" 200 1972 0.205007
+2015-03-10 16:58:30.510 3034 INFO neutron.wsgi [-] (3034) accepted ('13.0.0.3', 34641)
+2015-03-10 16:58:30.513 3034 INFO urllib3.connectionpool [-] Resetting dropped connection: 13.0.0.25
+2015-03-10 16:58:30.556 3026 INFO neutron.wsgi [-] (3026) accepted ('13.0.0.3', 34647)
+2015-03-10 16:58:30.596 3026 INFO neutron.plugins.ml2.managers [req-ebc699ad-b357-4eb3-b1bd-63c361d128c4 None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-10 16:58:30.596 3034 INFO neutron.plugins.ml2.managers [req-d1440938-0113-4f9b-892b-dd476be36991 None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-10 16:58:30.597 3026 INFO neutron.wsgi [req-ebc699ad-b357-4eb3-b1bd-63c361d128c4 None] 13.0.0.3 - - [10/Mar/2015 16:58:30] "GET /v2.0/ports.json?fields=id&id=1d5ae930-42f0-414b-b172-e6bcce5f3fa4 HTTP/1.1" 200 248 0.040594
+2015-03-10 16:58:30.598 3034 INFO neutron.wsgi [req-d1440938-0113-4f9b-892b-dd476be36991 None] 13.0.0.3 - - [10/Mar/2015 16:58:30] "GET /v2.0/ports.json?fields=id&id=81f99ce3-2d45-4820-b4c4-b7697bf981b4 HTTP/1.1" 200 248 0.086633
+2015-03-10 16:58:30.603 3030 INFO neutron.wsgi [-] (3030) accepted ('13.0.0.3', 34651)
+2015-03-10 16:58:30.606 3030 INFO urllib3.connectionpool [-] Starting new HTTP connection (1): 13.0.0.25
+2015-03-10 16:58:30.625 3026 INFO neutron.plugins.ml2.managers [req-9072cd78-3ac1-4ce0-b334-d518172c42ac None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-10 16:58:30.627 3034 INFO neutron.plugins.ml2.managers [req-baafb738-dc96-455a-9499-ced36c153330 None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-10 16:58:30.628 3026 INFO neutron.wsgi [req-9072cd78-3ac1-4ce0-b334-d518172c42ac None] 13.0.0.3 - - [10/Mar/2015 16:58:30] "GET /v2.0/ports/1d5ae930-42f0-414b-b172-e6bcce5f3fa4.json HTTP/1.1" 200 772 0.027226
+2015-03-10 16:58:30.630 3034 INFO neutron.wsgi [req-baafb738-dc96-455a-9499-ced36c153330 None] 13.0.0.3 - - [10/Mar/2015 16:58:30] "GET /v2.0/ports/81f99ce3-2d45-4820-b4c4-b7697bf981b4.json HTTP/1.1" 200 796 0.028840
+2015-03-10 16:58:30.633 3029 INFO neutron.wsgi [-] (3029) accepted ('13.0.0.3', 34657)
+2015-03-10 16:58:30.637 3029 INFO urllib3.connectionpool [-] Resetting dropped connection: 13.0.0.25
+2015-03-10 16:58:30.660 3029 INFO neutron.wsgi [-] (3029) accepted ('13.0.0.3', 34661)
+2015-03-10 16:58:30.662 3029 INFO urllib3.connectionpool [-] Resetting dropped connection: 13.0.0.25
+2015-03-10 16:58:30.729 3033 INFO neutron.wsgi [-] (3033) accepted ('13.0.0.3', 34666)
+2015-03-10 16:58:30.730 3029 INFO neutron.plugins.ml2.managers [req-757a7eda-2d52-4df5-9f24-8f404a74e5c8 None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-10 16:58:30.731 3033 INFO urllib3.connectionpool [-] Resetting dropped connection: 13.0.0.25
+2015-03-10 16:58:30.740 3029 INFO neutron.wsgi [req-757a7eda-2d52-4df5-9f24-8f404a74e5c8 None] 13.0.0.3 - - [10/Mar/2015 16:58:30] "GET /v2.0/ports.json?fields=id&id=940f5bf2-4bd5-410d-9382-061e1543d98f HTTP/1.1" 200 248 0.079134
+2015-03-10 16:58:30.742 3029 INFO neutron.wsgi [-] (3029) accepted ('13.0.0.3', 34672)
+2015-03-10 16:58:30.743 3026 INFO neutron.wsgi [-] (3026) accepted ('13.0.0.3', 34674)
+2015-03-10 16:58:30.771 3029 INFO neutron.plugins.ml2.managers [req-55ada2eb-81ee-41ac-ae41-b3b87000a373 None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-10 16:58:30.773 3033 INFO neutron.wsgi [-] (3033) accepted ('13.0.0.3', 34676)
+2015-03-10 16:58:30.778 3026 INFO neutron.plugins.ml2.managers [req-d0b02daf-c80e-4b15-926b-04282f99c743 None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-10 16:58:30.780 3026 INFO neutron.wsgi [req-d0b02daf-c80e-4b15-926b-04282f99c743 None] 13.0.0.3 - - [10/Mar/2015 16:58:30] "GET /v2.0/ports.json?fields=id&id=6184834b-d1d0-43f3-9155-ac4c4d72f798 HTTP/1.1" 200 248 0.036034
+2015-03-10 16:58:30.781 3029 INFO neutron.wsgi [req-55ada2eb-81ee-41ac-ae41-b3b87000a373 None] 13.0.0.3 - - [10/Mar/2015 16:58:30] "GET /v2.0/ports/940f5bf2-4bd5-410d-9382-061e1543d98f.json HTTP/1.1" 200 772 0.030521
+2015-03-10 16:58:30.803 3026 INFO neutron.plugins.ml2.managers [req-aec56009-f77b-45c9-82a8-9e5b9dc5f6ce None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-10 16:58:30.806 3026 INFO neutron.wsgi [req-aec56009-f77b-45c9-82a8-9e5b9dc5f6ce None] 13.0.0.3 - - [10/Mar/2015 16:58:30] "GET /v2.0/ports/6184834b-d1d0-43f3-9155-ac4c4d72f798.json HTTP/1.1" 200 772 0.024026
+2015-03-10 16:58:30.822 3029 INFO neutron.plugins.ml2.managers [req-6720b615-3f77-4ef5-a110-b6494f0be0ab None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-10 16:58:30.824 3033 INFO neutron.plugins.ml2.managers [req-b52f68e9-fc19-4ff4-b928-e799707e890c None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-10 16:58:30.826 3029 INFO neutron.plugins.ml2.managers [req-f7104d11-7702-4b89-8207-5f7934bae91b None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-10 16:58:30.828 3029 INFO neutron.wsgi [req-6720b615-3f77-4ef5-a110-b6494f0be0ab None] 13.0.0.3 - - [10/Mar/2015 16:58:30] "GET /v2.0/ports.json?fields=id&id=096a1be6-1bae-4fb0-8718-9dee5f8025bd HTTP/1.1" 200 248 0.193264
+2015-03-10 16:58:30.829 3029 INFO neutron.wsgi [req-f7104d11-7702-4b89-8207-5f7934bae91b None] 13.0.0.3 - - [10/Mar/2015 16:58:30] "GET /v2.0/ports.json?fields=id&id=8603f1be-bf5a-4263-8f71-367f01b15f61 HTTP/1.1" 200 248 0.085634
+2015-03-10 16:58:30.834 3033 INFO neutron.wsgi [req-b52f68e9-fc19-4ff4-b928-e799707e890c None] 13.0.0.3 - - [10/Mar/2015 16:58:30] "GET /v2.0/ports.json?fields=id&id=2e4cc0ff-e2f8-46ae-9918-a90d413b274a HTTP/1.1" 200 248 0.104741
+2015-03-10 16:58:30.850 3029 INFO neutron.plugins.ml2.managers [req-1bdd1da6-3e13-46a5-a0a0-8848b7c0bfe0 None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-10 16:58:30.865 3030 INFO neutron.plugins.ml2.managers [req-51bea33d-2834-442b-afde-15b0992ce5dc None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-10 16:58:30.866 3029 INFO neutron.wsgi [req-1bdd1da6-3e13-46a5-a0a0-8848b7c0bfe0 None] 13.0.0.3 - - [10/Mar/2015 16:58:30] "GET /v2.0/ports/096a1be6-1bae-4fb0-8718-9dee5f8025bd.json HTTP/1.1" 200 773 0.035134
+2015-03-10 16:58:30.866 3030 INFO neutron.wsgi [req-51bea33d-2834-442b-afde-15b0992ce5dc None] 13.0.0.3 - - [10/Mar/2015 16:58:30] "GET /v2.0/ports.json?fields=id&id=377bf9c3-c553-4b51-b24e-6d90c5ca89bb HTTP/1.1" 200 248 0.262642
+2015-03-10 16:58:30.870 3029 INFO neutron.plugins.ml2.managers [req-e71e1580-1010-47f5-b6b7-dd9015fb76de None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-10 16:58:30.872 3029 INFO neutron.wsgi [req-e71e1580-1010-47f5-b6b7-dd9015fb76de None] 13.0.0.3 - - [10/Mar/2015 16:58:30] "GET /v2.0/ports/8603f1be-bf5a-4263-8f71-367f01b15f61.json HTTP/1.1" 200 796 0.021036
+2015-03-10 16:58:30.888 3030 INFO neutron.plugins.ml2.managers [req-11cb5e8b-f900-4252-9cbe-a36d828f1f30 None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-10 16:58:30.890 3030 INFO neutron.wsgi [req-11cb5e8b-f900-4252-9cbe-a36d828f1f30 None] 13.0.0.3 - - [10/Mar/2015 16:58:30] "GET /v2.0/ports/377bf9c3-c553-4b51-b24e-6d90c5ca89bb.json HTTP/1.1" 200 772 0.019963
+2015-03-10 16:58:30.912 3033 INFO neutron.plugins.ml2.managers [req-9bd8ae07-e339-4994-9a3a-6bf67d4aed64 None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-10 16:58:30.914 3033 INFO neutron.wsgi [req-9bd8ae07-e339-4994-9a3a-6bf67d4aed64 None] 13.0.0.3 - - [10/Mar/2015 16:58:30] "GET /v2.0/ports/2e4cc0ff-e2f8-46ae-9918-a90d413b274a.json HTTP/1.1" 200 773 0.076695
+2015-03-10 16:58:30.946 3033 INFO neutron.plugins.ml2.managers [req-0b365721-02bb-4313-aead-c145c6629a72 None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-10 16:58:30.948 3033 INFO neutron.wsgi [req-0b365721-02bb-4313-aead-c145c6629a72 None] 13.0.0.3 - - [10/Mar/2015 16:58:30] "GET /v2.0/ports.json?fields=id&id=b8d9a677-2e8f-482f-a240-bdff65977e04 HTTP/1.1" 200 248 0.174089
+2015-03-10 16:58:30.969 3033 INFO neutron.plugins.ml2.managers [req-9e201d33-d9ca-49f9-b824-006a9f9ca5aa None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-10 16:58:30.971 3033 INFO neutron.wsgi [req-9e201d33-d9ca-49f9-b824-006a9f9ca5aa None] 13.0.0.3 - - [10/Mar/2015 16:58:30] "GET /v2.0/ports/b8d9a677-2e8f-482f-a240-bdff65977e04.json HTTP/1.1" 200 772 0.019192
+2015-03-10 16:58:31.619 3030 INFO neutron.wsgi [-] (3030) accepted ('13.0.0.3', 34789)
+2015-03-10 16:58:31.662 3030 INFO neutron.plugins.ml2.managers [req-02a3e44d-2f57-45c9-8a71-9ba97662473a None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-10 16:58:31.665 3030 INFO neutron.wsgi [req-02a3e44d-2f57-45c9-8a71-9ba97662473a None] 13.0.0.3 - - [10/Mar/2015 16:58:31] "GET /v2.0/ports/81f99ce3-2d45-4820-b4c4-b7697bf981b4.json HTTP/1.1" 200 796 0.045570
+2015-03-10 16:58:31.900 3028 INFO neutron.wsgi [-] (3028) accepted ('13.0.0.3', 34867)
+2015-03-10 16:58:31.902 3028 INFO urllib3.connectionpool [-] Resetting dropped connection: 13.0.0.25
+2015-03-10 16:58:31.985 3031 INFO neutron.wsgi [-] (3031) accepted ('13.0.0.3', 34886)
+2015-03-10 16:58:31.987 3031 INFO urllib3.connectionpool [-] Resetting dropped connection: 13.0.0.25
+2015-03-10 16:58:31.991 3028 INFO neutron.plugins.ml2.managers [req-8a53344a-f541-4ff6-b00a-a767f337086c None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-10 16:58:31.994 3028 INFO neutron.wsgi [req-8a53344a-f541-4ff6-b00a-a767f337086c None] 13.0.0.3 - - [10/Mar/2015 16:58:31] "GET /v2.0/ports/096a1be6-1bae-4fb0-8718-9dee5f8025bd.json HTTP/1.1" 200 773 0.092917
+2015-03-10 16:58:31.996 3028 INFO neutron.wsgi [-] (3028) accepted ('13.0.0.3', 34890)
+2015-03-10 16:58:32.011 3028 TRACE keystonemiddleware.auth_token Traceback (most recent call last):
+2015-03-10 16:58:32.011 3028 TRACE keystonemiddleware.auth_token   File "/usr/lib/python2.7/site-packages/keystonemiddleware/auth_token.py", line 874, in _validate_token
+2015-03-10 16:58:32.011 3028 TRACE keystonemiddleware.auth_token     expires = _confirm_token_not_expired(data)
+2015-03-10 16:58:32.011 3028 TRACE keystonemiddleware.auth_token   File "/usr/lib/python2.7/site-packages/keystonemiddleware/auth_token.py", line 452, in _confirm_token_not_expired
+2015-03-10 16:58:32.011 3028 TRACE keystonemiddleware.auth_token     raise InvalidToken('Token authorization failed')
+2015-03-10 16:58:32.011 3028 TRACE keystonemiddleware.auth_token InvalidToken: Token authorization failed
+2015-03-10 16:58:32.011 3028 TRACE keystonemiddleware.auth_token 
+2015-03-10 16:58:32.012 3028 INFO keystonemiddleware.auth_token [-] Invalid user token - rejecting request
+2015-03-10 16:58:32.013 3028 INFO neutron.wsgi [-] 13.0.0.3 - - [10/Mar/2015 16:58:32] "GET /v2.0/ports/096a1be6-1bae-4fb0-8718-9dee5f8025bd.json?fields=binding%3Avnic_type&fields=network_id HTTP/1.1" 401 258 0.016064
+2015-03-10 16:58:32.048 3035 INFO neutron.wsgi [-] (3035) accepted ('13.0.0.3', 34896)
+2015-03-10 16:58:32.051 3035 INFO urllib3.connectionpool [-] Resetting dropped connection: 13.0.0.25
+2015-03-10 16:58:32.071 3031 INFO neutron.plugins.ml2.managers [req-ca2fb7f3-13e8-4f6f-9f7e-63c0c300f452 None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-10 16:58:32.073 3031 INFO neutron.wsgi [req-ca2fb7f3-13e8-4f6f-9f7e-63c0c300f452 None] 13.0.0.3 - - [10/Mar/2015 16:58:32] "GET /v2.0/ports/940f5bf2-4bd5-410d-9382-061e1543d98f.json HTTP/1.1" 200 772 0.087358
+2015-03-10 16:58:32.077 3027 INFO neutron.wsgi [-] (3027) accepted ('13.0.0.3', 34904)
+2015-03-10 16:58:32.092 3027 TRACE keystonemiddleware.auth_token Traceback (most recent call last):
+2015-03-10 16:58:32.092 3027 TRACE keystonemiddleware.auth_token   File "/usr/lib/python2.7/site-packages/keystonemiddleware/auth_token.py", line 874, in _validate_token
+2015-03-10 16:58:32.092 3027 TRACE keystonemiddleware.auth_token     expires = _confirm_token_not_expired(data)
+2015-03-10 16:58:32.092 3027 TRACE keystonemiddleware.auth_token   File "/usr/lib/python2.7/site-packages/keystonemiddleware/auth_token.py", line 452, in _confirm_token_not_expired
+2015-03-10 16:58:32.092 3027 TRACE keystonemiddleware.auth_token     raise InvalidToken('Token authorization failed')
+2015-03-10 16:58:32.092 3027 TRACE keystonemiddleware.auth_token InvalidToken: Token authorization failed
+2015-03-10 16:58:32.092 3027 TRACE keystonemiddleware.auth_token 
+2015-03-10 16:58:32.094 3027 INFO keystonemiddleware.auth_token [-] Invalid user token - rejecting request
+2015-03-10 16:58:32.095 3027 INFO neutron.wsgi [-] 13.0.0.3 - - [10/Mar/2015 16:58:32] "GET /v2.0/ports/940f5bf2-4bd5-410d-9382-061e1543d98f.json?fields=binding%3Avnic_type&fields=network_id HTTP/1.1" 401 258 0.017045
+2015-03-10 16:58:32.124 3025 INFO neutron.wsgi [-] (3025) accepted ('13.0.0.3', 34916)
+2015-03-10 16:58:32.128 3035 INFO neutron.plugins.ml2.managers [req-33cb7445-159a-47b1-a413-adb689fab511 None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-10 16:58:32.130 3025 INFO urllib3.connectionpool [-] Resetting dropped connection: 13.0.0.25
+2015-03-10 16:58:32.131 3035 INFO neutron.wsgi [req-33cb7445-159a-47b1-a413-adb689fab511 None] 13.0.0.3 - - [10/Mar/2015 16:58:32] "GET /v2.0/ports/1d5ae930-42f0-414b-b172-e6bcce5f3fa4.json HTTP/1.1" 200 772 0.082273
+2015-03-10 16:58:32.135 3025 INFO neutron.wsgi [-] (3025) accepted ('13.0.0.3', 34922)
+2015-03-10 16:58:32.138 3025 INFO urllib3.connectionpool [-] Starting new HTTP connection (2): 13.0.0.25
+2015-03-10 16:58:32.138 3030 INFO neutron.wsgi [-] (3030) accepted ('13.0.0.3', 34926)
+2015-03-10 16:58:32.145 3034 INFO neutron.wsgi [-] (3034) accepted ('13.0.0.3', 34930)
+2015-03-10 16:58:32.155 3032 INFO neutron.wsgi [-] (3032) accepted ('13.0.0.3', 34933)
+2015-03-10 16:58:32.159 3032 INFO urllib3.connectionpool [-] Starting new HTTP connection (1): 13.0.0.25
+2015-03-10 16:58:32.179 3034 INFO neutron.plugins.ml2.managers [req-645b53ed-75ae-423e-82c1-2cc2f08b9d73 None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-10 16:58:32.181 3034 INFO neutron.wsgi [req-645b53ed-75ae-423e-82c1-2cc2f08b9d73 None] 13.0.0.3 - - [10/Mar/2015 16:58:32] "GET /v2.0/ports/096a1be6-1bae-4fb0-8718-9dee5f8025bd.json?fields=binding%3Avnic_type&fields=network_id HTTP/1.1" 200 284 0.035848
+2015-03-10 16:58:32.183 3030 INFO neutron.plugins.ml2.managers [req-896a812d-9973-4b5f-bf69-9ff21fe61551 None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-10 16:58:32.186 3030 INFO neutron.wsgi [req-896a812d-9973-4b5f-bf69-9ff21fe61551 None] 13.0.0.3 - - [10/Mar/2015 16:58:32] "GET /v2.0/ports/b8d9a677-2e8f-482f-a240-bdff65977e04.json HTTP/1.1" 200 772 0.046915
+2015-03-10 16:58:32.189 3032 INFO neutron.wsgi [-] (3032) accepted ('13.0.0.3', 34937)
+2015-03-10 16:58:32.191 3032 INFO urllib3.connectionpool [-] Starting new HTTP connection (2): 13.0.0.25
+2015-03-10 16:58:32.192 3036 INFO neutron.wsgi [-] (3036) accepted ('13.0.0.3', 34939)
+2015-03-10 16:58:32.194 3036 INFO urllib3.connectionpool [-] Resetting dropped connection: 13.0.0.25
+2015-03-10 16:58:32.215 3038 INFO neutron.wsgi [-] (3038) accepted ('13.0.0.3', 34945)
+2015-03-10 16:58:32.224 3025 INFO neutron.plugins.ml2.managers [req-3bc18728-7ee5-4aec-918f-a360fdf09a4b None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-10 16:58:32.226 3025 INFO neutron.wsgi [req-3bc18728-7ee5-4aec-918f-a360fdf09a4b None] 13.0.0.3 - - [10/Mar/2015 16:58:32] "GET /v2.0/ports/6184834b-d1d0-43f3-9155-ac4c4d72f798.json HTTP/1.1" 200 772 0.098440
+2015-03-10 16:58:32.227 3025 TRACE keystonemiddleware.auth_token Traceback (most recent call last):
+2015-03-10 16:58:32.227 3025 TRACE keystonemiddleware.auth_token   File "/usr/lib/python2.7/site-packages/keystonemiddleware/auth_token.py", line 874, in _validate_token
+2015-03-10 16:58:32.227 3025 TRACE keystonemiddleware.auth_token     expires = _confirm_token_not_expired(data)
+2015-03-10 16:58:32.227 3025 TRACE keystonemiddleware.auth_token   File "/usr/lib/python2.7/site-packages/keystonemiddleware/auth_token.py", line 452, in _confirm_token_not_expired
+2015-03-10 16:58:32.227 3025 TRACE keystonemiddleware.auth_token     raise InvalidToken('Token authorization failed')
+2015-03-10 16:58:32.227 3025 TRACE keystonemiddleware.auth_token InvalidToken: Token authorization failed
+2015-03-10 16:58:32.227 3025 TRACE keystonemiddleware.auth_token 
+2015-03-10 16:58:32.228 3025 INFO keystonemiddleware.auth_token [-] Invalid user token - rejecting request
+2015-03-10 16:58:32.229 3025 INFO neutron.wsgi [-] 13.0.0.3 - - [10/Mar/2015 16:58:32] "GET /v2.0/ports/1d5ae930-42f0-414b-b172-e6bcce5f3fa4.json?fields=binding%3Avnic_type&fields=network_id HTTP/1.1" 401 258 0.092738
+2015-03-10 16:58:32.230 3034 INFO neutron.wsgi [-] (3034) accepted ('13.0.0.3', 34947)
+2015-03-10 16:58:32.233 3028 INFO neutron.wsgi [-] (3028) accepted ('13.0.0.3', 34951)
+2015-03-10 16:58:32.245 3034 TRACE keystonemiddleware.auth_token Traceback (most recent call last):
+2015-03-10 16:58:32.245 3034 TRACE keystonemiddleware.auth_token   File "/usr/lib/python2.7/site-packages/keystonemiddleware/auth_token.py", line 874, in _validate_token
+2015-03-10 16:58:32.245 3034 TRACE keystonemiddleware.auth_token     expires = _confirm_token_not_expired(data)
+2015-03-10 16:58:32.245 3034 TRACE keystonemiddleware.auth_token   File "/usr/lib/python2.7/site-packages/keystonemiddleware/auth_token.py", line 452, in _confirm_token_not_expired
+2015-03-10 16:58:32.245 3034 TRACE keystonemiddleware.auth_token     raise InvalidToken('Token authorization failed')
+2015-03-10 16:58:32.245 3034 TRACE keystonemiddleware.auth_token InvalidToken: Token authorization failed
+2015-03-10 16:58:32.245 3034 TRACE keystonemiddleware.auth_token 
+2015-03-10 16:58:32.246 3034 INFO keystonemiddleware.auth_token [-] Invalid user token - rejecting request
+2015-03-10 16:58:32.247 3034 INFO neutron.wsgi [-] 13.0.0.3 - - [10/Mar/2015 16:58:32] "GET /v2.0/ports/6184834b-d1d0-43f3-9155-ac4c4d72f798.json?fields=binding%3Avnic_type&fields=network_id HTTP/1.1" 401 258 0.016201
+2015-03-10 16:58:32.249 3038 INFO neutron.plugins.ml2.managers [req-b74eaaf3-790f-4827-8d03-329c75e2ceac None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-10 16:58:32.251 3038 INFO neutron.wsgi [req-b74eaaf3-790f-4827-8d03-329c75e2ceac None] 13.0.0.3 - - [10/Mar/2015 16:58:32] "GET /v2.0/ports/2e4cc0ff-e2f8-46ae-9918-a90d413b274a.json HTTP/1.1" 200 773 0.035872
+2015-03-10 16:58:32.255 3026 INFO neutron.wsgi [-] (3026) accepted ('13.0.0.3', 34955)
+2015-03-10 16:58:32.269 3036 INFO neutron.plugins.ml2.managers [req-52d94f68-207e-4e6c-824c-6f9e0d878761 None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-10 16:58:32.271 3028 INFO neutron.plugins.ml2.managers [req-faeb319f-3de9-41dd-862d-37f58349bd9e None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-10 16:58:32.272 3036 INFO neutron.wsgi [req-52d94f68-207e-4e6c-824c-6f9e0d878761 None] 13.0.0.3 - - [10/Mar/2015 16:58:32] "GET /v2.0/ports/377bf9c3-c553-4b51-b24e-6d90c5ca89bb.json HTTP/1.1" 200 772 0.079419
+2015-03-10 16:58:32.272 3026 TRACE keystonemiddleware.auth_token Traceback (most recent call last):
+2015-03-10 16:58:32.272 3026 TRACE keystonemiddleware.auth_token   File "/usr/lib/python2.7/site-packages/keystonemiddleware/auth_token.py", line 874, in _validate_token
+2015-03-10 16:58:32.272 3026 TRACE keystonemiddleware.auth_token     expires = _confirm_token_not_expired(data)
+2015-03-10 16:58:32.272 3026 TRACE keystonemiddleware.auth_token   File "/usr/lib/python2.7/site-packages/keystonemiddleware/auth_token.py", line 452, in _confirm_token_not_expired
+2015-03-10 16:58:32.272 3026 TRACE keystonemiddleware.auth_token     raise InvalidToken('Token authorization failed')
+2015-03-10 16:58:32.272 3026 TRACE keystonemiddleware.auth_token InvalidToken: Token authorization failed
+2015-03-10 16:58:32.272 3026 TRACE keystonemiddleware.auth_token 
+2015-03-10 16:58:32.273 3026 INFO keystonemiddleware.auth_token [-] Invalid user token - rejecting request
+2015-03-10 16:58:32.274 3026 INFO neutron.wsgi [-] 13.0.0.3 - - [10/Mar/2015 16:58:32] "GET /v2.0/ports/2e4cc0ff-e2f8-46ae-9918-a90d413b274a.json?fields=binding%3Avnic_type&fields=network_id HTTP/1.1" 401 258 0.015739
+2015-03-10 16:58:32.274 3028 INFO neutron.wsgi [req-faeb319f-3de9-41dd-862d-37f58349bd9e None] 13.0.0.3 - - [10/Mar/2015 16:58:32] "GET /v2.0/ports/940f5bf2-4bd5-410d-9382-061e1543d98f.json?fields=binding%3Avnic_type&fields=network_id HTTP/1.1" 200 284 0.040769
+2015-03-10 16:58:32.277 3027 INFO neutron.wsgi [-] (3027) accepted ('13.0.0.3', 34960)
+2015-03-10 16:58:32.290 3027 TRACE keystonemiddleware.auth_token Traceback (most recent call last):
+2015-03-10 16:58:32.290 3027 TRACE keystonemiddleware.auth_token   File "/usr/lib/python2.7/site-packages/keystonemiddleware/auth_token.py", line 874, in _validate_token
+2015-03-10 16:58:32.290 3027 TRACE keystonemiddleware.auth_token     expires = _confirm_token_not_expired(data)
+2015-03-10 16:58:32.290 3027 TRACE keystonemiddleware.auth_token   File "/usr/lib/python2.7/site-packages/keystonemiddleware/auth_token.py", line 452, in _confirm_token_not_expired
+2015-03-10 16:58:32.290 3027 TRACE keystonemiddleware.auth_token     raise InvalidToken('Token authorization failed')
+2015-03-10 16:58:32.290 3027 TRACE keystonemiddleware.auth_token InvalidToken: Token authorization failed
+2015-03-10 16:58:32.290 3027 TRACE keystonemiddleware.auth_token 
+2015-03-10 16:58:32.291 3027 INFO keystonemiddleware.auth_token [-] Invalid user token - rejecting request
+2015-03-10 16:58:32.291 3027 INFO neutron.wsgi [-] 13.0.0.3 - - [10/Mar/2015 16:58:32] "GET /v2.0/ports/377bf9c3-c553-4b51-b24e-6d90c5ca89bb.json?fields=binding%3Avnic_type&fields=network_id HTTP/1.1" 401 258 0.013703
+2015-03-10 16:58:32.378 3039 INFO neutron.wsgi [-] (3039) accepted ('13.0.0.3', 34982)
+2015-03-10 16:58:32.388 3029 INFO neutron.wsgi [-] (3029) accepted ('13.0.0.3', 34984)
+2015-03-10 16:58:32.389 3032 INFO neutron.plugins.ml2.managers [req-73b565fe-c2a8-402b-a355-fbad685911b7 None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-10 16:58:32.403 3032 INFO neutron.wsgi [req-73b565fe-c2a8-402b-a355-fbad685911b7 None] 13.0.0.3 - - [10/Mar/2015 16:58:32] "GET /v2.0/ports/8603f1be-bf5a-4263-8f71-367f01b15f61.json HTTP/1.1" 200 796 0.247343
+2015-03-10 16:58:32.414 3039 INFO neutron.plugins.ml2.managers [req-8af5af46-ed3b-4c77-9e3d-a5efe18da1ed None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-10 16:58:32.416 3026 INFO neutron.wsgi [-] (3026) accepted ('13.0.0.3', 34986)
+2015-03-10 16:58:32.416 3039 INFO neutron.wsgi [req-8af5af46-ed3b-4c77-9e3d-a5efe18da1ed None] 13.0.0.3 - - [10/Mar/2015 16:58:32] "GET /v2.0/ports/1d5ae930-42f0-414b-b172-e6bcce5f3fa4.json?fields=binding%3Avnic_type&fields=network_id HTTP/1.1" 200 284 0.037137
+2015-03-10 16:58:32.422 3032 TRACE keystonemiddleware.auth_token Traceback (most recent call last):
+2015-03-10 16:58:32.422 3032 TRACE keystonemiddleware.auth_token   File "/usr/lib/python2.7/site-packages/keystonemiddleware/auth_token.py", line 874, in _validate_token
+2015-03-10 16:58:32.422 3032 TRACE keystonemiddleware.auth_token     expires = _confirm_token_not_expired(data)
+2015-03-10 16:58:32.422 3032 TRACE keystonemiddleware.auth_token   File "/usr/lib/python2.7/site-packages/keystonemiddleware/auth_token.py", line 452, in _confirm_token_not_expired
+2015-03-10 16:58:32.422 3032 TRACE keystonemiddleware.auth_token     raise InvalidToken('Token authorization failed')
+2015-03-10 16:58:32.422 3032 TRACE keystonemiddleware.auth_token InvalidToken: Token authorization failed
+2015-03-10 16:58:32.422 3032 TRACE keystonemiddleware.auth_token 
+2015-03-10 16:58:32.423 3032 INFO keystonemiddleware.auth_token [-] Invalid user token - rejecting request
+2015-03-10 16:58:32.424 3032 INFO neutron.wsgi [-] 13.0.0.3 - - [10/Mar/2015 16:58:32] "GET /v2.0/ports/b8d9a677-2e8f-482f-a240-bdff65977e04.json?fields=binding%3Avnic_type&fields=network_id HTTP/1.1" 401 258 0.233928
+2015-03-10 16:58:32.426 3026 INFO neutron.wsgi [-] (3026) accepted ('13.0.0.3', 34988)
+2015-03-10 16:58:32.433 3029 INFO neutron.plugins.ml2.managers [req-e991be9b-94c9-40c1-8cbf-e2e989ee662d None] Extended port dict for driver 'cisco_n1kv_ext'
+2015-03-10 16:58:32.435 3029 INFO neutron.wsgi [req-e991be9b-94c9-40c1-8cbf-e2e989ee662d None] 13.0.0.3 - - [10/Mar/2015 16:58:32] "GET /v2.0/ports/6184834b-d1d0-43f3-9155-ac4c4d72f798.json?fields=binding%3Avnic_type&fields=network_id HTTP/1.1" 200 284 0.046402
+2015-03-10 16:58:32.462 3026 INFO neutron.wsgi [req-de349eee-58e6-47cd-978a-695fec7fa3ae None] 13.0.0.3 - - [10/Mar/2015 16:58:32] "GET /v2.0/ports.json?device_id=a43df455-ba05-4433-a1ce-8b059e8de8dc HTTP/1.1" 200 202 0.045542
+2015-03-10 16:58:32.469 3027 INFO neutron.wsgi [-] (3027) accepted ('13.0.0.3', 34993)
